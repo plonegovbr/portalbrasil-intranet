@@ -1,4 +1,4 @@
-name: 'PortalBrasil: Intranet - CI'
+name: 'PortalBrasil: Intranet'
 
 on:
   push:
