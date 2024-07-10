@@ -21,11 +21,6 @@ msgstr ""
 msgid "Colaboradores"
 msgstr ""
 
-#. Default: "Copyright"
-#: components/Footer/Footer
-msgid "Copyright"
-msgstr ""
-
 #. Default: "Gestor"
 #: components/Blocks/Gestor/schema
 msgid "Gestor"
