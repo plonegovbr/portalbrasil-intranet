@@ -26,7 +26,7 @@ jobs:
       - name: Set Env Vars
         id: vars
         run: |
-          echo "PLONE_VERSION=$(cat backend/version.txt)" >> $GITHUB_OUTPUT
+          echo "PLONE_VERSION=$(cat version.txt)" >> $GITHUB_OUTPUT
 
   code-quality:
     runs-on: ubuntu-latest
