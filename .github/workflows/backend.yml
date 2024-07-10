@@ -27,8 +27,8 @@ jobs:
       - name: Set Env Vars
         id: vars
         run: |
-          echo 'BASE_TAG=sha-'$(git rev-parse --short HEAD) >> $GITHUB_OUTPUT
           echo "PLONE_VERSION=$(cat version.txt)" >> $GITHUB_OUTPUT
+          echo 'BASE_TAG=sha-'$(git rev-parse --short HEAD) >> $GITHUB_OUTPUT
 
       - name: Test vars
         run: |
