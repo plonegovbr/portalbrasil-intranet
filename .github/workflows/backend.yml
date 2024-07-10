@@ -33,7 +33,7 @@ jobs:
       - name: Test vars
         run: |
           echo 'BASE_TAG=${{ steps.vars.outputs.BASE_TAG }}'
-          echo 'PLONE_VERSION=${{ steps.vars.outputs.VOLTO_VERSION }}'
+          echo 'PLONE_VERSION=${{ steps.vars.outputs.PLONE_VERSION }}'
 
   code-quality:
     runs-on: ubuntu-latest
