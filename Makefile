@@ -13,6 +13,7 @@ GIT_FOLDER=$(CURRENT_DIR)/.git
 
 PROJECT_NAME=portalbrasil-intranet
 STACK_NAME=intranet-demo-plone-org-br
+STACK_FILE=docker-compose-dev.yml
 
 VOLTO_VERSION = $(shell cat frontend/mrs.developer.json | python -c "import sys, json; print(json.load(sys.stdin)['core']['tag'])")
 PLONE_VERSION=$(shell cat backend/version.txt)
@@ -131,28 +132,28 @@ build-images:  ## Build docker images
 .PHONY: stack-start
 stack-start:  ## Local Stack: Start Services
 	@echo "Start local Docker stack"
-	VOLTO_VERSION=$(VOLTO_VERSION) PLONE_VERSION=$(PLONE_VERSION) docker compose -f docker-compose.yml up -d --build
+	VOLTO_VERSION=$(VOLTO_VERSION) PLONE_VERSION=$(PLONE_VERSION) docker compose -f $(STACK_FILE) up -d --build
 	@echo "Now visit: http://portalbrasil-intranet.localhost"
 
 .PHONY: start-stack
 stack-create-site:  ## Local Stack: Create a new site
 	@echo "Create a new site in the local Docker stack"
-	@docker compose -f docker-compose.yml exec backend ./docker-entrypoint.sh create-site
+	@docker compose -f $(STACK_FILE) exec backend ./docker-entrypoint.sh create-site
 
 .PHONY: start-ps
 stack-status:  ## Local Stack: Check Status
 	@echo "Check the status of the local Docker stack"
-	@docker compose -f docker-compose.yml ps
+	@docker compose -f $(STACK_FILE) ps
 
 .PHONY: stack-stop
 stack-stop:  ##  Local Stack: Stop Services
 	@echo "Stop local Docker stack"
-	@docker compose -f docker-compose.yml stop
+	@docker compose -f $(STACK_FILE) stop
 
 .PHONY: stack-rm
 stack-rm:  ## Local Stack: Remove Services and Volumes
 	@echo "Remove local Docker stack"
-	@docker compose -f docker-compose.yml down
+	@docker compose -f $(STACK_FILE) down
 	@echo "Remove local volume data"
 	@docker volume rm $(PROJECT_NAME)_vol-site-data
 

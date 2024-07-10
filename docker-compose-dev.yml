@@ -1,5 +1,5 @@
 ---
-name: portalbrasil-intranet
+name: portalbrasil-intranet-dev
 
 services:
   traefik:
@@ -32,8 +32,10 @@ services:
       - --log
       - --api
   frontend:
-    image: ghcr.io/plonegovbr/portalbrasil-intranet-frontend:latest
-    platform: linux/amd64
+    build:
+      context: ./frontend
+      args:
+        - VOLTO_VERSION=${VOLTO_VERSION}
     environment:
       RAZZLE_INTERNAL_API_PATH: http://backend:8080/Plone
     depends_on:
@@ -51,8 +53,10 @@ services:
       - traefik.http.routers.rt-frontend.middlewares=gzip
 
   backend:
-    image: ghcr.io/plonegovbr/portalbrasil-intranet-backend:latest
-    platform: linux/amd64
+    build:
+      context: ./backend
+      args:
+        - PLONE_VERSION=${PLONE_VERSION}
     environment:
       RELSTORAGE_DSN: "dbname='${DB_NAME:-plone}' user='${DB_NAME:-plone}' host='${DB_HOST:-db}' password='${DB_PASSWORD:-HxfQYJgHCtjM}' port='${DB_PORT:-5432}'"
       ZOPE_FORM_MEMORY_LIMIT: 250MB

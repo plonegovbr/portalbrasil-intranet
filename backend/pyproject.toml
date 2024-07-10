@@ -57,9 +57,6 @@ exclude = [
   "/.github",
 ]
 
-[tool.hatch.build.targets.wheel]
-only-packages = true
-
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
