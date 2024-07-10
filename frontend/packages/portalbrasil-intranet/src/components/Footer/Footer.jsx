@@ -1,20 +1,13 @@
 // SemanticUI-free pre-@plone/components
 import React from 'react';
 
-import { FormattedMessage, defineMessages, injectIntl } from 'react-intl';
+import { FormattedMessage, injectIntl } from 'react-intl';
 import { useSelector, shallowEqual } from 'react-redux';
 import { UniversalLink } from '@plone/volto/components';
 import { Container } from '@plone/components';
 import { flattenToAppURL, addAppURL } from '@plone/volto/helpers';
 import ToolLogo from '../ToolLogo/ToolLogo';
 import config from '@plone/volto/registry';
-
-const messages = defineMessages({
-  copyright: {
-    id: 'Copyright',
-    defaultMessage: 'Copyright',
-  },
-});
 
 /**
  * Component to display the footer.

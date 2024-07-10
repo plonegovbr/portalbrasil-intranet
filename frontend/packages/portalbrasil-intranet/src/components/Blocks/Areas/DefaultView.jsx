@@ -1,7 +1,5 @@
 import React from 'react';
-import { Icon, UniversalLink } from '@plone/volto/components';
 import { Card } from 'semantic-ui-react';
-import { Container } from '@plone/components';
 import AreaSummary from '../../Summary/AreaSummary';
 
 const Header = ({ title }) => {
