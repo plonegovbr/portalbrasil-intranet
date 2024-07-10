@@ -1,0 +1,53 @@
+{
+  "@id": "/imagens/praia-joao-pessoa",
+  "@type": "Image",
+  "UID": "478d8e09dc85468a85125df5caec7342",
+  "allow_discussion": false,
+  "contributors": [],
+  "created": "2024-07-04T22:47:13+00:00",
+  "creators": [
+    "Cacio Murilo/MTur"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "praia-joao-pessoa",
+  "image": {
+    "blob_path": "478d8e09dc85468a85125df5caec7342/image/Praia - Jo\u00e3o Pessoa",
+    "content-type": "image/jpeg",
+    "filename": "Praia - Jo\u00e3o Pessoa",
+    "height": 1365,
+    "size": 393795,
+    "width": 2048
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2024-07-04T22:51:23+00:00",
+  "parent": {
+    "@id": "/imagens",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "26e5fc286fce4c2e9613411cc0f0663f",
+    "description": "Imagens utilizadas na Intranet",
+    "effective": "2024-07-04T19:37:00+00:00",
+    "id": "imagens",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Imagens",
+    "type_title": "Page"
+  },
+  "review_state": null,
+  "rights": "https://www.flickr.com/photos/mturdestinos/39994343015/in/album-72157688930738460/",
+  "subjects": [],
+  "title": "Praia - Jo\u00e3o Pessoa",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {}
+}

@@ -1,0 +1,13 @@
+// Login & Logout view
+body.view-viewview.section-login,
+body.view-viewview.section-logout {
+  #main {
+    .breadcrumbs {
+      display: none;
+    }
+
+    .content-area #page-login {
+      margin-top: $spacing-large;
+    }
+  }
+}

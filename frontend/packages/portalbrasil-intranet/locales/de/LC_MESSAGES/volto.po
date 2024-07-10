@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: \n"
+"Language-Team: \n"
+"Content-Type: \n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. Default: "Close menu"
+#: components/Navigation/Navigation
+msgid "Close menu"
+msgstr ""
+
+#. Default: "Colaboradores"
+#: components/Blocks/Colaboradores/schema
+msgid "Colaboradores"
+msgstr ""
+
+#. Default: "Copyright"
+#: components/Footer/Footer
+msgid "Copyright"
+msgstr ""
+
+#. Default: "Gestor"
+#: components/Blocks/Gestor/schema
+msgid "Gestor"
+msgstr ""
+
+#. Default: "Open menu"
+#: components/Navigation/Navigation
+msgid "Open menu"
+msgstr ""
+
+#. Default: "Portal Brasil: Intranet"
+#: components/ToolLogo/ToolLogo
+msgid "Portal Brasil: Intranet"
+msgstr ""
+
+#. Default: "Powered by Portal Brasil: Intranet, Plone & Python"
+#: components/Footer/Footer
+msgid "Powered by Portal Brasil: Intranet, Plone & Python"
+msgstr ""
+
+#. Default: "Título"
+#: components/Blocks/Areas/schema
+#: components/Blocks/Colaboradores/schema
+#: components/Blocks/Gestor/schema
+msgid "Título"
+msgstr ""
+
+#. Default: "Unauthorized"
+#: components/Unauthorized/Unauthorized
+msgid "Unauthorized"
+msgstr ""
+
+#. Default: "You are trying to access a protected resource, please {login} first."
+#: components/Unauthorized/Unauthorized
+msgid "You are trying to access a protected resource, please {login} first."
+msgstr ""
+
+#. Default: "log in"
+#: components/Unauthorized/Unauthorized
+msgid "log in"
+msgstr ""
+
+#. Default: ""
+#: components/Header/Header
+msgid "siteLabel"
+msgstr ""
+
+#. Default: "Áreas"
+#: components/Blocks/Areas/schema
+msgid "Áreas"
+msgstr ""

@@ -1,0 +1,53 @@
+{
+  "@id": "/imagens/joao-pessoa",
+  "@type": "Image",
+  "UID": "df21ec28680143ffb122692019686a4a",
+  "allow_discussion": false,
+  "contributors": [],
+  "created": "2024-07-04T22:47:13+00:00",
+  "creators": [
+    "Cacio Murilo/MTur"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "joao-pessoa",
+  "image": {
+    "blob_path": "df21ec28680143ffb122692019686a4a/image/Jo\u00e3o Pessoa",
+    "content-type": "image/jpeg",
+    "filename": "Jo\u00e3o Pessoa",
+    "height": 1360,
+    "size": 565867,
+    "width": 2047
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2024-07-04T22:50:59+00:00",
+  "parent": {
+    "@id": "/imagens",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "26e5fc286fce4c2e9613411cc0f0663f",
+    "description": "Imagens utilizadas na Intranet",
+    "effective": "2024-07-04T19:37:00+00:00",
+    "id": "imagens",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Imagens",
+    "type_title": "Page"
+  },
+  "review_state": null,
+  "rights": "https://www.flickr.com/photos/mturdestinos/39078430450/in/album-72157688930738460/",
+  "subjects": [],
+  "title": "Jo\u00e3o Pessoa",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {}
+}

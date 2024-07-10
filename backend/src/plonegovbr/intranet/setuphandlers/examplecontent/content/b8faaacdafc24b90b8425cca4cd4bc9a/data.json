@@ -1,0 +1,53 @@
+{
+  "@id": "/imagens/bonito",
+  "@type": "Image",
+  "UID": "b8faaacdafc24b90b8425cca4cd4bc9a",
+  "allow_discussion": false,
+  "contributors": [],
+  "created": "2024-07-04T22:47:15+00:00",
+  "creators": [
+    "Fl\u00e1vio Andr\u00e9 - MTUR"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "bonito",
+  "image": {
+    "blob_path": "b8faaacdafc24b90b8425cca4cd4bc9a/image/Bonito",
+    "content-type": "image/jpeg",
+    "filename": "Bonito",
+    "height": 1150,
+    "size": 1593289,
+    "width": 2047
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2024-07-04T22:50:36+00:00",
+  "parent": {
+    "@id": "/imagens",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "26e5fc286fce4c2e9613411cc0f0663f",
+    "description": "Imagens utilizadas na Intranet",
+    "effective": "2024-07-04T19:37:00+00:00",
+    "id": "imagens",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Imagens",
+    "type_title": "Page"
+  },
+  "review_state": null,
+  "rights": "https://www.flickr.com/photos/mturdestinos/26205771787/in/album-72157695004743755/",
+  "subjects": [],
+  "title": "Bonito",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {}
+}

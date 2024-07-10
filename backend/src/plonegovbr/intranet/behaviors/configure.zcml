@@ -1,0 +1,28 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    >
+
+  <plone:behavior
+      name="plonegovbr.intranet.matricula"
+      title="Matrícula de um colaborador"
+      description="Adiciona o campo matricula a um colaborador"
+      factory=".matricula.Matricula"
+      provides=".matricula.IMatricula"
+      for="plonegovbr.intranet.content.colaborador.IColaborador"
+      />
+  <plone:behavior
+      name="plonegovbr.intranet.contato"
+      title="Informações de contato"
+      description="Adiciona campos de contato"
+      provides=".contato.IContato"
+      />
+  <plone:behavior
+      name="plonegovbr.intranet.endereco"
+      title="Informações de endereço"
+      description="Adiciona campos de endereço"
+      provides=".endereco.IEndereco"
+      />
+
+
+</configure>

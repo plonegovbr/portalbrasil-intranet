@@ -1,0 +1,100 @@
+{
+  "@id": "/sobre",
+  "@type": "Document",
+  "UID": "e65e86c1d5d14560a6aeffe2e90d747b",
+  "allow_discussion": false,
+  "blocks": {
+    "176f8f5f-01ef-4cbc-a873-de6cba7f309d": {
+      "@type": "listing",
+      "headline": "Funcionalidades",
+      "headlineTag": "h2",
+      "styles": {},
+      "variation": "grid"
+    },
+    "333c0e96-d324-40b8-b385-12b8b3a662e3": {
+      "@type": "title"
+    },
+    "36fa0611-62a5-436d-b707-ae2e8b1baeb4": {
+      "@type": "description"
+    },
+    "90ce5acf-6d50-49a0-8142-9fb72fe0c87b": {
+      "@type": "slate",
+      "plaintext": "",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "333c0e96-d324-40b8-b385-12b8b3a662e3",
+      "36fa0611-62a5-436d-b707-ae2e8b1baeb4",
+      "176f8f5f-01ef-4cbc-a873-de6cba7f309d",
+      "90ce5acf-6d50-49a0-8142-9fb72fe0c87b"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-07-06T21:56:30+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Conhe\u00e7a a nova Intranet da nossa institui\u00e7\u00e3o",
+  "effective": "2024-07-06T18:57:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "sobre",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-07-10T15:47:45+00:00",
+  "nav_title": null,
+  "parent": {
+    "@id": "/",
+    "@type": "Plone Site",
+    "UID": "plone_site_root",
+    "description": "Intranet",
+    "title": "Intranet",
+    "type_title": "Plone Site"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Sobre",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_intranet_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-07-06T21:56:30+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-07-06T21:57:10+00:00"
+      }
+    ]
+  }
+}

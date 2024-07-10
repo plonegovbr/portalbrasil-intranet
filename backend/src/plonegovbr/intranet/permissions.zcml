@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="plonegovbr.intranet"
+    >
+
+  <configure zcml:condition="installed AccessControl.security">
+    <permission
+        id="plonegovbr.intranet.colaborador.add"
+        title="plonegovbr.intranet: Add Colaborador"
+        />
+    <permission
+        id="plonegovbr.intranet.area.add"
+        title="plonegovbr.intranet: Add Area"
+        />
+    <permission
+        id="plonegovbr.intranet.servico.add"
+        title="plonegovbr.intranet: Add Servico"
+        />
+  </configure>
+
+</configure>

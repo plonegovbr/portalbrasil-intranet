@@ -1,0 +1,135 @@
+{
+  "@id": "/sobre/tema",
+  "@type": "Document",
+  "UID": "17b06e11b95941f08a6c483d0869f69d",
+  "allow_discussion": false,
+  "blocks": {
+    "3d2c2e7a-cfbe-4497-8b53-169373b05bf7": {
+      "@type": "title"
+    },
+    "44733ff9-c941-41c0-822c-f259c8956fcf": {
+      "@type": "slate",
+      "plaintext": "O Portal Brasil: Intranet utiliza um tema visual constru\u00eddo sobre o @kitconcept/volto-light-theme .",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O Portal Brasil: Intranet utiliza um tema visual constru\u00eddo sobre o "
+            },
+            {
+              "children": [
+                {
+                  "text": "@kitconcept/volto-light-theme"
+                }
+              ],
+              "data": {
+                "url": "https://github.com/kitconcept/volto-light-theme"
+              },
+              "type": "link"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "4a13ee93-963c-436d-88dc-27e2677c154a": {
+      "@type": "slate",
+      "plaintext": "Esse tema pode ser alterado em seus projetos atrav\u00e9s do uso de vari\u00e1veis de css.",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Esse tema pode ser alterado em seus projetos atrav\u00e9s do uso de vari\u00e1veis de css."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8fd45379-28ec-49ae-aa8c-cd01a237cd19": {
+      "@type": "description"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "3d2c2e7a-cfbe-4497-8b53-169373b05bf7",
+      "8fd45379-28ec-49ae-aa8c-cd01a237cd19",
+      "44733ff9-c941-41c0-822c-f259c8956fcf",
+      "4a13ee93-963c-436d-88dc-27e2677c154a"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-07-06T22:00:12+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Tema visual baseado no volto-light-theme",
+  "effective": "2024-07-06T19:13:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "tema",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-07-07T13:51:52+00:00",
+  "nav_title": null,
+  "parent": {
+    "@id": "/sobre",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "e65e86c1d5d14560a6aeffe2e90d747b",
+    "description": "Conhe\u00e7a a nova Intranet da nossa institui\u00e7\u00e3o",
+    "effective": "2024-07-06T21:57:00+00:00",
+    "id": "sobre",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Sobre",
+    "type_title": "Page"
+  },
+  "preview_caption": null,
+  "preview_image": {
+    "blob_path": "17b06e11b95941f08a6c483d0869f69d/preview_image/tema.png",
+    "content-type": "image/png",
+    "filename": "tema.png",
+    "height": 2160,
+    "size": 6387867,
+    "width": 3840
+  },
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Tema",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_intranet_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-07-06T22:00:12+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-07-06T22:13:48+00:00"
+      }
+    ]
+  }
+}

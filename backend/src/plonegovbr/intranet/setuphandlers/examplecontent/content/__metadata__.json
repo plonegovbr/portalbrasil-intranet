@@ -1,0 +1,412 @@
+{
+  "__version__": "1.0.0",
+  "_blob_files_": [
+    "0f37fe34245f439ba78901e36f6da9dc/preview_image/estrutura.png",
+    "fe1c6ad17162484680a1143ac4ad47f6/image/image.15359.3654189.jpg",
+    "abcd08c1843b4540b90cb73b9e9fc050/preview_image/towfiqu-barbhuiya-bwOAixLG0uc-unsplash.jpg",
+    "62f52ef944a1485893df3a7248f6eba5/preview_image/chamada-ploneconf.png",
+    "8076c71e86844965b2e07bee35949f17/preview_image/ploneconf.png",
+    "0f70ad1edb4b4baab3fd39ee0817f0ea/preview_image/WPD 17th April 2024 1920x1080 (PT) .png",
+    "b8faaacdafc24b90b8425cca4cd4bc9a/image/Bonito",
+    "8741d333db4c4736957db5742906aba6/image/image-3600-d11e328d24e6a75a36d38008b7b1e0c8.jpeg",
+    "df21ec28680143ffb122692019686a4a/image/Jo\u00e3o Pessoa",
+    "12da9643d3ab4671ab995ca620900922/image/Plone Foundation",
+    "dd7a0f02ab9b45da9159a9ccee9a0fad/image/PloneGov-BR",
+    "478d8e09dc85468a85125df5caec7342/image/Praia - Jo\u00e3o Pessoa",
+    "ab9796ee584142ceb86df51343cee5e0/image/S\u00e3o Paulo",
+    "9575155bfeb4440bb719d3c96ed43da4/image/portalbrasil.png",
+    "1eb1b5c533dc4cb8b3faff4eb8750785/preview_image/scott-graham-OQMZwNd3ThU-unsplash.jpg",
+    "7bc5679d36c44d7ea81663b0595c6be0/preview_image/volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.jpg",
+    "17b06e11b95941f08a6c483d0869f69d/preview_image/tema.png",
+    "fdd8db018975496db797f1aa1ce559ef/preview_image/tipos.png",
+    "9b37dfbe71ba477791e511975741e6b0/image/rh.jpeg",
+    "be80977453784cf58e28ab12e0d09dfb/image/ingressos-ploneconf.png"
+  ],
+  "_data_files_": [
+    "plone_site_root/data.json",
+    "0f37fe34245f439ba78901e36f6da9dc/data.json",
+    "c50064410cc94ebaa3d744b3852414ed/data.json",
+    "fe1c6ad17162484680a1143ac4ad47f6/data.json",
+    "b31a223c7b0b4146b8b17b640b9d39e1/data.json",
+    "9b37dfbe71ba477791e511975741e6b0/data.json",
+    "abcd08c1843b4540b90cb73b9e9fc050/data.json",
+    "62f52ef944a1485893df3a7248f6eba5/data.json",
+    "0f70ad1edb4b4baab3fd39ee0817f0ea/data.json",
+    "26e5fc286fce4c2e9613411cc0f0663f/data.json",
+    "b8faaacdafc24b90b8425cca4cd4bc9a/data.json",
+    "8741d333db4c4736957db5742906aba6/data.json",
+    "df21ec28680143ffb122692019686a4a/data.json",
+    "12da9643d3ab4671ab995ca620900922/data.json",
+    "dd7a0f02ab9b45da9159a9ccee9a0fad/data.json",
+    "478d8e09dc85468a85125df5caec7342/data.json",
+    "ab9796ee584142ceb86df51343cee5e0/data.json",
+    "42bb0222abfe4356949de633f5cc25e6/data.json",
+    "be80977453784cf58e28ab12e0d09dfb/data.json",
+    "9575155bfeb4440bb719d3c96ed43da4/data.json",
+    "87b599b4dd5a419da58c59632bace85c/data.json",
+    "616403f8459349feab36daba645b95d9/data.json",
+    "e65e86c1d5d14560a6aeffe2e90d747b/data.json",
+    "1eb1b5c533dc4cb8b3faff4eb8750785/data.json",
+    "7bc5679d36c44d7ea81663b0595c6be0/data.json",
+    "17b06e11b95941f08a6c483d0869f69d/data.json",
+    "fdd8db018975496db797f1aa1ce559ef/data.json"
+  ],
+  "default_page": {},
+  "local_permissions": {
+    "0f37fe34245f439ba78901e36f6da9dc": {
+      "plonegovbr.intranet: Add Area": {
+        "acquire": false,
+        "roles": [
+          "Contributor",
+          "Editor",
+          "Manager",
+          "Reviewer"
+        ]
+      },
+      "plonegovbr.intranet: Add Colaborador": {
+        "acquire": false,
+        "roles": [
+          "Contributor",
+          "Editor",
+          "Manager",
+          "Reviewer"
+        ]
+      }
+    },
+    "0f70ad1edb4b4baab3fd39ee0817f0ea": {},
+    "12da9643d3ab4671ab995ca620900922": {},
+    "17b06e11b95941f08a6c483d0869f69d": {},
+    "1eb1b5c533dc4cb8b3faff4eb8750785": {},
+    "26e5fc286fce4c2e9613411cc0f0663f": {},
+    "42bb0222abfe4356949de633f5cc25e6": {},
+    "478d8e09dc85468a85125df5caec7342": {},
+    "616403f8459349feab36daba645b95d9": {},
+    "62f52ef944a1485893df3a7248f6eba5": {},
+    "7bc5679d36c44d7ea81663b0595c6be0": {},
+    "8741d333db4c4736957db5742906aba6": {},
+    "87b599b4dd5a419da58c59632bace85c": {
+      "plonegovbr.intranet: Add Servico": {
+        "acquire": false,
+        "roles": [
+          "Contributor",
+          "Editor",
+          "Manager",
+          "Reviewer",
+          "Site Administrator"
+        ]
+      }
+    },
+    "9575155bfeb4440bb719d3c96ed43da4": {},
+    "9b37dfbe71ba477791e511975741e6b0": {},
+    "ab9796ee584142ceb86df51343cee5e0": {},
+    "abcd08c1843b4540b90cb73b9e9fc050": {},
+    "b31a223c7b0b4146b8b17b640b9d39e1": {},
+    "b8faaacdafc24b90b8425cca4cd4bc9a": {},
+    "be80977453784cf58e28ab12e0d09dfb": {},
+    "c50064410cc94ebaa3d744b3852414ed": {},
+    "dd7a0f02ab9b45da9159a9ccee9a0fad": {},
+    "df21ec28680143ffb122692019686a4a": {},
+    "e65e86c1d5d14560a6aeffe2e90d747b": {},
+    "fdd8db018975496db797f1aa1ce559ef": {},
+    "fe1c6ad17162484680a1143ac4ad47f6": {},
+    "plone_site_root": {
+      "Add portal member": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator",
+          "Owner"
+        ]
+      },
+      "Content rules: Manage rules": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Delete own comments": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator",
+          "Reviewer",
+          "Owner"
+        ]
+      },
+      "Reply to item": {
+        "acquire": false,
+        "roles": [
+          "Authenticated"
+        ]
+      },
+      "Set own password": {
+        "acquire": false,
+        "roles": [
+          "Authenticated",
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Set own properties": {
+        "acquire": false,
+        "roles": [
+          "Authenticated",
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Show Toolbar": {
+        "acquire": false,
+        "roles": [
+          "Authenticated"
+        ]
+      },
+      "plone.resource: Export ZIP file": {
+        "acquire": false,
+        "roles": [
+          "Manager"
+        ]
+      },
+      "plone.resourceeditor: Manage Sources": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "plonegovbr.intranet: Add Area": {
+        "acquire": false,
+        "roles": []
+      },
+      "plonegovbr.intranet: Add Colaborador": {
+        "acquire": false,
+        "roles": []
+      },
+      "plonegovbr.intranet: Add Servico": {
+        "acquire": false,
+        "roles": []
+      }
+    }
+  },
+  "local_roles": {
+    "0f37fe34245f439ba78901e36f6da9dc": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "0f70ad1edb4b4baab3fd39ee0817f0ea": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "12da9643d3ab4671ab995ca620900922": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "17b06e11b95941f08a6c483d0869f69d": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "1eb1b5c533dc4cb8b3faff4eb8750785": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "26e5fc286fce4c2e9613411cc0f0663f": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "42bb0222abfe4356949de633f5cc25e6": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "478d8e09dc85468a85125df5caec7342": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "616403f8459349feab36daba645b95d9": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "62f52ef944a1485893df3a7248f6eba5": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "7bc5679d36c44d7ea81663b0595c6be0": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "8741d333db4c4736957db5742906aba6": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "87b599b4dd5a419da58c59632bace85c": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "9575155bfeb4440bb719d3c96ed43da4": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "9b37dfbe71ba477791e511975741e6b0": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "ab9796ee584142ceb86df51343cee5e0": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "abcd08c1843b4540b90cb73b9e9fc050": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "b31a223c7b0b4146b8b17b640b9d39e1": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "b8faaacdafc24b90b8425cca4cd4bc9a": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "be80977453784cf58e28ab12e0d09dfb": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "c50064410cc94ebaa3d744b3852414ed": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "dd7a0f02ab9b45da9159a9ccee9a0fad": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "df21ec28680143ffb122692019686a4a": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "e65e86c1d5d14560a6aeffe2e90d747b": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "fdd8db018975496db797f1aa1ce559ef": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "fe1c6ad17162484680a1143ac4ad47f6": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "plone_site_root": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    }
+  },
+  "ordering": {
+    "0f37fe34245f439ba78901e36f6da9dc": 44,
+    "0f70ad1edb4b4baab3fd39ee0817f0ea": 1,
+    "12da9643d3ab4671ab995ca620900922": 5,
+    "17b06e11b95941f08a6c483d0869f69d": 0,
+    "1eb1b5c533dc4cb8b3faff4eb8750785": 2,
+    "26e5fc286fce4c2e9613411cc0f0663f": 42,
+    "42bb0222abfe4356949de633f5cc25e6": 45,
+    "478d8e09dc85468a85125df5caec7342": 3,
+    "616403f8459349feab36daba645b95d9": 0,
+    "62f52ef944a1485893df3a7248f6eba5": 0,
+    "7bc5679d36c44d7ea81663b0595c6be0": 3,
+    "8741d333db4c4736957db5742906aba6": 0,
+    "87b599b4dd5a419da58c59632bace85c": 47,
+    "9575155bfeb4440bb719d3c96ed43da4": 0,
+    "9b37dfbe71ba477791e511975741e6b0": 0,
+    "ab9796ee584142ceb86df51343cee5e0": 1,
+    "abcd08c1843b4540b90cb73b9e9fc050": 46,
+    "b31a223c7b0b4146b8b17b640b9d39e1": 1,
+    "b8faaacdafc24b90b8425cca4cd4bc9a": 4,
+    "be80977453784cf58e28ab12e0d09dfb": 1,
+    "c50064410cc94ebaa3d744b3852414ed": 0,
+    "dd7a0f02ab9b45da9159a9ccee9a0fad": 6,
+    "df21ec28680143ffb122692019686a4a": 2,
+    "e65e86c1d5d14560a6aeffe2e90d747b": 43,
+    "fdd8db018975496db797f1aa1ce559ef": 1,
+    "fe1c6ad17162484680a1143ac4ad47f6": 0
+  },
+  "relations": []
+}

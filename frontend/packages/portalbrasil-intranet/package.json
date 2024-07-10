@@ -1,0 +1,67 @@
+{
+  "name": "@plonegovbr/portalbrasil-intranet",
+  "version": "1.0.0-alpha.0",
+  "description": "Solução de Intranet construída com Plone",
+  "main": "src/index.js",
+  "license": "MIT",
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "plonegovbr",
+    "intranet",
+    "react"
+  ],
+  "author": "PloneGov-BR",
+  "homepage": "https://github.com/plonegovbr/portalbrasil-intranet#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:plonegovbr/portalbrasil-intranet.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon",
+    "dry-release": "release-it --dry-run",
+    "release": "release-it",
+    "release-major-alpha": "release-it major --preRelease=alpha",
+    "release-alpha": "release-it --preRelease=alpha"
+  },
+  "addons": [
+    "volto-form-block",
+    "@eeacms/volto-accordion-block",
+    "@eeacms/volto-pdf-block",
+    "@kitconcept/volto-button-block",
+    "@kitconcept/volto-heading-block",
+    "@kitconcept/volto-separator-block",
+    "@kitconcept/volto-slider-block",
+    "@plone-collective/volto-bookmarks",
+    "@mbarde/volto-image-crop-widget",
+    "@plonegovbr/volto-vlibras",
+    "@kitconcept/volto-light-theme"
+  ],
+  "dependencies": {
+    "@plone/components": "workspace:*",
+    "@eeacms/volto-accordion-block": "11.0.0",
+    "@eeacms/volto-pdf-block": "1.0.11",
+    "@mbarde/volto-image-crop-widget": "0.5.1",
+    "@kitconcept/volto-button-block": "2.3.1",
+    "@kitconcept/volto-heading-block": "2.4.0",
+    "@kitconcept/volto-separator-block": "4.1.0",
+    "@kitconcept/volto-slider-block": "6.3.1",
+    "@kitconcept/volto-light-theme": "4.0.1",
+    "@plone-collective/volto-bookmarks": "1.0.2",
+    "volto-form-block": "^3.9.1",
+    "volto-subblocks": "^2.1.0",
+    "@plonegovbr/volto-vlibras": "0.4.0"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@plone/scripts": "^3.6.1",
+    "release-it": "^17.1.1"
+  }
+}

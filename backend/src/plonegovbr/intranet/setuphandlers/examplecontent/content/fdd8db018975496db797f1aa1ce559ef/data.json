@@ -1,0 +1,137 @@
+{
+  "@id": "/sobre/tipos-de-conteudo",
+  "@type": "Document",
+  "UID": "fdd8db018975496db797f1aa1ce559ef",
+  "allow_discussion": false,
+  "blocks": {
+    "1c7553f2-ccd1-421b-97c4-f50f68b520ca": {
+      "@type": "slate",
+      "plaintext": "Colaborador",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Colaborador"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "2fd79273-4204-4cce-bc72-92feb4f91198": {
+      "@type": "title"
+    },
+    "9fbae3da-5792-4f3c-b61b-c85b7571a407": {
+      "@type": "slate",
+      "plaintext": "\u00c1rea",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": "\u00c1rea"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "e5012263-5fec-459d-ba34-21172229194c": {
+      "@type": "description"
+    },
+    "f986621d-450e-4015-97d1-15a821f185a4": {
+      "@type": "slate",
+      "plaintext": "Servi\u00e7o (Sistema)",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Servi\u00e7o (Sistema)"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "2fd79273-4204-4cce-bc72-92feb4f91198",
+      "e5012263-5fec-459d-ba34-21172229194c",
+      "9fbae3da-5792-4f3c-b61b-c85b7571a407",
+      "1c7553f2-ccd1-421b-97c4-f50f68b520ca",
+      "f986621d-450e-4015-97d1-15a821f185a4"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-07-06T22:01:34+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "A vers\u00e3o 1.0 do Portal Brasil: Intranet disponibiliza alguns novos tipos de conte\u00fado.",
+  "effective": "2024-07-06T19:13:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "tipos-de-conteudo",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-07-07T13:53:54+00:00",
+  "nav_title": null,
+  "parent": {
+    "@id": "/sobre",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "e65e86c1d5d14560a6aeffe2e90d747b",
+    "description": "Conhe\u00e7a a nova Intranet da nossa institui\u00e7\u00e3o",
+    "effective": "2024-07-06T21:57:00+00:00",
+    "id": "sobre",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Sobre",
+    "type_title": "Page"
+  },
+  "preview_caption": null,
+  "preview_image": {
+    "blob_path": "fdd8db018975496db797f1aa1ce559ef/preview_image/tipos.png",
+    "content-type": "image/png",
+    "filename": "tipos.png",
+    "height": 1966,
+    "size": 521502,
+    "width": 3600
+  },
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Tipos de Conte\u00fado",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_intranet_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-07-06T22:01:34+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-07-06T22:13:49+00:00"
+      }
+    ]
+  }
+}

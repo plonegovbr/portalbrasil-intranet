@@ -1,0 +1,97 @@
+// Header wrapper
+.header-wrapper {
+  background-color: var(--color-surface-container-high);
+  .header.layout {
+    .search-wrapper {
+      .search {
+        .search-bar {
+          top: -180px;
+          left: 0;
+          background-color: var(--color-surface-container-high);
+          &.active {
+            top: -45px;
+            height: 209px;
+          }
+        }
+      }
+    }
+  }
+  // Navigation
+  .navigation {
+    .item {
+      @include add(size, xs);
+      color: var(--color-on-surface);
+      text-transform: uppercase !important;
+      &.active,
+      &:hover {
+        color: var(--color-on-surface);
+        &::before {
+          bottom: -49px;
+          border-bottom: 12px solid var(--color-tertiary-container);
+        }
+      }
+    }
+
+    ul.desktop-menu .submenu-wrapper {
+      .submenu {
+        border-top: 1px solid var(--color-on-tertiary-container);
+        background: var(--color-tertiary-container);
+
+        &.active {
+          border-top-color: var(--color-tertiary-container);
+          .close {
+            background: var(--color-tertiary-container);
+            color: var(--color-on-tertiary);
+          }
+        }
+
+        .submenu-inner {
+          h2 {
+            color: var(--color-on-primary);
+          }
+
+          .submenu-header {
+            h2 {
+              margin-left: 0px;
+              @include add(weight, bold);
+            }
+          }
+
+          .subitem-wrapper {
+            border-left: 1px solid var(--color-on-primary);
+
+            > a,
+            li > a {
+              color: var(--color-on-primary);
+
+              span {
+                &:hover {
+                  border-bottom: 1px solid var(--color-on-primary);
+                }
+                color: var(--color-on-primary);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Mobile Navigation
+  .mobile-nav .hamburger:before,
+  .mobile-nav .hamburger::after,
+  .mobile-nav .hamburger-inner:after,
+  .mobile-nav .hamburger-inner::before {
+    background-color: var(--color-secondary);
+  }
+}
+
+body.is-unauthorized {
+  .header-wrapper {
+    .header.layout {
+      .search-wrapper {
+        display: none !important;
+      }
+    }
+  }
+}

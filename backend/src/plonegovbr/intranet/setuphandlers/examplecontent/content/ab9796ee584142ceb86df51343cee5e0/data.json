@@ -1,0 +1,53 @@
+{
+  "@id": "/imagens/sao-paulo",
+  "@type": "Image",
+  "UID": "ab9796ee584142ceb86df51343cee5e0",
+  "allow_discussion": false,
+  "contributors": [],
+  "created": "2024-07-04T22:47:10+00:00",
+  "creators": [
+    "Rog\u00e9rio Cassimiro - MTUR"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "sao-paulo",
+  "image": {
+    "blob_path": "ab9796ee584142ceb86df51343cee5e0/image/S\u00e3o Paulo",
+    "content-type": "image/jpeg",
+    "filename": "S\u00e3o Paulo",
+    "height": 1252,
+    "size": 272829,
+    "width": 1878
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2024-07-04T22:50:08+00:00",
+  "parent": {
+    "@id": "/imagens",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "26e5fc286fce4c2e9613411cc0f0663f",
+    "description": "Imagens utilizadas na Intranet",
+    "effective": "2024-07-04T19:37:00+00:00",
+    "id": "imagens",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Imagens",
+    "type_title": "Page"
+  },
+  "review_state": null,
+  "rights": "https://www.flickr.com/photos/mturdestinos/40066551935/in/album-72157664950115697/",
+  "subjects": [],
+  "title": "S\u00e3o Paulo",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {}
+}

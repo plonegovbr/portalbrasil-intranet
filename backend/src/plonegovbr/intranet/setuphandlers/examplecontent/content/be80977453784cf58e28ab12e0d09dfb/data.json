@@ -1,0 +1,126 @@
+{
+  "@id": "/noticias/incricoes-abertas-para-a-plone-conference",
+  "@type": "News Item",
+  "UID": "be80977453784cf58e28ab12e0d09dfb",
+  "allow_discussion": true,
+  "blocks": {
+    "3e4ba4f6-afad-422d-9d3c-b21fa5a50793": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "https://2024.ploneconf.org/pt-br/ingressos",
+          "title": "2024.ploneconf.org/pt-br/ingressos"
+        }
+      ],
+      "inneralign": "center",
+      "openLinkInNewTab": true,
+      "styles": {},
+      "title": "Garanta a sua participa\u00e7\u00e3o"
+    },
+    "81aadd7b-1af6-491e-a800-3bb654bd8fcd": {
+      "@type": "description"
+    },
+    "986cc3db-6730-44f8-aa1a-e225c01fba1a": {
+      "@type": "leadimage"
+    },
+    "b1e2fe5b-9a0b-41a4-a928-5015a0dc4ed6": {
+      "@type": "title"
+    },
+    "b55f964d-aec4-47e2-ab21-3a4dccf2bb6a": {
+      "@type": "slate",
+      "plaintext": "Temos o prazer de anunciar que os ingressos antecipados para a Plone Conference 2024 e Python Cerrado 2024 j\u00e1 est\u00e3o dispon\u00edveis para compra. Estes eventos ocorrer\u00e3o de 25 de novembro a 1 de dezembro no Campus UniProcessus em Bras\u00edlia, Brasil.",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Temos o prazer de anunciar que os ingressos antecipados para a Plone Conference 2024 e Python Cerrado 2024 j\u00e1 est\u00e3o dispon\u00edveis para compra. Estes eventos ocorrer\u00e3o de 25 de novembro a 1 de dezembro no Campus UniProcessus em Bras\u00edlia, Brasil."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "b1e2fe5b-9a0b-41a4-a928-5015a0dc4ed6",
+      "81aadd7b-1af6-491e-a800-3bb654bd8fcd",
+      "986cc3db-6730-44f8-aa1a-e225c01fba1a",
+      "b55f964d-aec4-47e2-ab21-3a4dccf2bb6a",
+      "3e4ba4f6-afad-422d-9d3c-b21fa5a50793"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2024-07-10T14:37:08+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Ingressos antecipados para a Plone Conference e Python Cerrado 2024 em Bras\u00edlia, Brasil, j\u00e1 est\u00e3o dispon\u00edveis at\u00e9 15 de agosto.",
+  "effective": "2024-07-10T11:37:11",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "incricoes-abertas-para-a-plone-conference",
+  "image": {
+    "blob_path": "be80977453784cf58e28ab12e0d09dfb/image/ingressos-ploneconf.png",
+    "content-type": "image/png",
+    "filename": "ingressos-ploneconf.png",
+    "height": 1080,
+    "size": 1014044,
+    "width": 1920
+  },
+  "image_caption": null,
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "newsitem_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-07-10T14:37:11+00:00",
+  "parent": {
+    "@id": "/noticias",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "42bb0222abfe4356949de633f5cc25e6",
+    "description": "Not\u00edcias da nossa institui\u00e7\u00e3o",
+    "effective": "2024-07-04T22:46:00+00:00",
+    "id": "noticias",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Not\u00edcias",
+    "type_title": "Page"
+  },
+  "review_state": "published",
+  "rights": "",
+  "subjects": [
+    "Eventos"
+  ],
+  "title": "Incri\u00e7\u00f5es abertas para a Plone Conference",
+  "type_title": "News Item",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_intranet_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-07-10T14:37:08+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-07-10T14:37:11+00:00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "@id": "/noticias/lancada-a-nova-intranet",
+  "@type": "News Item",
+  "UID": "9575155bfeb4440bb719d3c96ed43da4",
+  "allow_discussion": true,
+  "blocks": {
+    "4b812064-d040-42e1-b7d7-a4e2e7d11d4e": {
+      "@type": "separator",
+      "styles": {
+        "align": "full"
+      }
+    },
+    "63bfed15-2cfe-49f0-a9fc-9c246ecd0bce": {
+      "@type": "description"
+    },
+    "969e7169-c48c-433a-a61c-095cd31b21d4": {
+      "@type": "gridBlock",
+      "blocks": {
+        "572d49b2-b96f-4072-a722-a442317e427c": {
+          "@type": "image",
+          "align": "center",
+          "credit": {},
+          "description": "",
+          "image_field": "image",
+          "size": "l",
+          "title": "Praia - Jo\u00e3o Pessoa",
+          "url": "../../resolveuid/478d8e09dc85468a85125df5caec7342"
+        },
+        "a29dc520-94f9-46eb-89c2-37a39e8016d4": {
+          "@type": "image",
+          "align": "center",
+          "credit": {},
+          "description": "",
+          "image_field": "image",
+          "size": "l",
+          "title": "Jo\u00e3o Pessoa",
+          "url": "../../resolveuid/df21ec28680143ffb122692019686a4a"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "572d49b2-b96f-4072-a722-a442317e427c",
+          "a29dc520-94f9-46eb-89c2-37a39e8016d4"
+        ]
+      },
+      "styles": {
+        "backgroundColor": "grey"
+      }
+    },
+    "aa8eabd7-beaf-43ed-b67b-92506bff22cb": {
+      "@type": "slate",
+      "plaintext": "Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra. Duis a arcu convallis, gravida purus eget, mollis diam.",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": " Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra. Duis a arcu convallis, gravida purus eget, mollis diam."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "ac8dd166-eee9-4cfe-a946-455e5099247e": {
+      "@type": "gridBlock",
+      "blocks": {
+        "8fa941a4-131c-46ec-b0e8-b9de0642c20f": {
+          "@type": "image",
+          "align": "center",
+          "credit": {},
+          "description": "",
+          "image_field": "image",
+          "size": "l",
+          "title": "Bonito",
+          "url": "../../resolveuid/b8faaacdafc24b90b8425cca4cd4bc9a"
+        },
+        "e77a3abd-49a8-4284-a418-8aa4362055a8": {
+          "@type": "image",
+          "align": "center",
+          "credit": {},
+          "description": "",
+          "image_field": "image",
+          "size": "l",
+          "title": "S\u00e3o Paulo",
+          "url": "../../resolveuid/ab9796ee584142ceb86df51343cee5e0"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "e77a3abd-49a8-4284-a418-8aa4362055a8",
+          "8fa941a4-131c-46ec-b0e8-b9de0642c20f"
+        ]
+      },
+      "headline": "Algumas imagens",
+      "styles": {
+        "backgroundColor": "grey"
+      }
+    },
+    "d85ea65c-41e5-4174-a92d-80cc65964582": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus. Donec augue elit, rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum libero sed pharetra."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "d86c7d43-7418-4e75-ad03-ef81ebdaffdc": {
+      "@type": "leadimage",
+      "align": "center"
+    },
+    "ecff1cd8-9e80-4da1-8d49-90509bd5811b": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "ecff1cd8-9e80-4da1-8d49-90509bd5811b",
+      "63bfed15-2cfe-49f0-a9fc-9c246ecd0bce",
+      "d86c7d43-7418-4e75-ad03-ef81ebdaffdc",
+      "d85ea65c-41e5-4174-a92d-80cc65964582",
+      "aa8eabd7-beaf-43ed-b67b-92506bff22cb",
+      "4b812064-d040-42e1-b7d7-a4e2e7d11d4e",
+      "ac8dd166-eee9-4cfe-a946-455e5099247e",
+      "969e7169-c48c-433a-a61c-095cd31b21d4"
+    ]
+  },
+  "changeActor": "admin",
+  "changeNote": null,
+  "contributors": [],
+  "created": "2024-07-04T23:04:20+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel egestas dolor, nec dignissim metus.",
+  "effective": "2024-07-04T20:04:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {
+    "0": {
+      "@id": "/noticias/lancada-a-nova-intranet",
+      "@type": "News Item",
+      "UID": "310892f8c65c4c978fd6e2a9826cf29c",
+      "allow_discussion": true,
+      "blocks": {},
+      "blocks_layout": {
+        "items": []
+      },
+      "changeNote": "",
+      "contributors": [],
+      "created": "2024-07-10T14:30:34+00:00",
+      "creators": [
+        "admin"
+      ],
+      "description": "",
+      "effective": null,
+      "exclude_from_nav": false,
+      "expires": null,
+      "id": "lancada-a-nova-intranet",
+      "image": null,
+      "image_caption": null,
+      "is_folderish": true,
+      "language": "",
+      "layout": "newsitem_view",
+      "lock": {
+        "locked": false,
+        "stealable": true
+      },
+      "modified": "2024-07-10T14:30:34+00:00",
+      "parent": {
+        "@id": "/noticias",
+        "@type": "Document",
+        "Subject": [],
+        "UID": "42bb0222abfe4356949de633f5cc25e6",
+        "description": "Not\u00edcias da nossa institui\u00e7\u00e3o",
+        "effective": "2024-07-04T22:46:00+00:00",
+        "id": "noticias",
+        "image_field": null,
+        "image_scales": {},
+        "review_state": "published",
+        "title": "Not\u00edcias",
+        "type_title": "Page"
+      },
+      "relatedItems": [],
+      "review_state": "published",
+      "rights": "",
+      "subjects": [],
+      "title": "",
+      "type_title": "News Item",
+      "version": 0,
+      "versioning_enabled": true
+    }
+  },
+  "id": "lancada-a-nova-intranet",
+  "image": {
+    "blob_path": "9575155bfeb4440bb719d3c96ed43da4/image/portalbrasil.png",
+    "content-type": "image/png",
+    "filename": "portalbrasil.png",
+    "height": 6400,
+    "size": 286142,
+    "width": 8533
+  },
+  "image_caption": "Portal Brasil",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "newsitem_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-07-04T23:04:45+00:00",
+  "parent": {
+    "@id": "/noticias",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "42bb0222abfe4356949de633f5cc25e6",
+    "description": "Not\u00edcias da nossa institui\u00e7\u00e3o",
+    "effective": "2024-07-04T22:46:00+00:00",
+    "id": "noticias",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Not\u00edcias",
+    "type_title": "Page"
+  },
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Lan\u00e7ada a nova intranet",
+  "type_title": "News Item",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_intranet_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-07-04T23:04:20+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-07-04T23:04:45+00:00"
+      }
+    ]
+  }
+}

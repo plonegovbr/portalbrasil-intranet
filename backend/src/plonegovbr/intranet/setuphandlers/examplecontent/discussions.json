@@ -1,0 +1,31 @@
+{
+  "7bc5679d36c44d7ea81663b0595c6be0": {
+    "items": [
+      {
+        "@id": "/sobre/interatividade/@comments/1720304006825152",
+        "@parent": null,
+        "@type": "Discussion Item",
+        "author_image": null,
+        "author_name": "admin",
+        "author_username": "admin",
+        "can_reply": true,
+        "comment_id": "1720304006825152",
+        "creation_date": "2024-07-06T22:13:26+00:00",
+        "in_reply_to": null,
+        "is_deletable": true,
+        "is_editable": false,
+        "modification_date": "2024-07-06T22:13:26+00:00",
+        "text": {
+          "data": "Gostei bastante da imagem utilizada nessa p\u00e1gina",
+          "mime-type": "text/plain"
+        },
+        "user_notification": null
+      }
+    ],
+    "items_total": 1,
+    "permissions": {
+      "can_reply": true,
+      "view_comments": true
+    }
+  }
+}

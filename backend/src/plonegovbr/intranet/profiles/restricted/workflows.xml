@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object meta_type="Plone Workflow Tool"
+        name="portal_workflow"
+>
+  <property name="title">Contains workflow definitions for your portal</property>
+  <object meta_type="Workflow"
+          name="simple_intranet_workflow"
+  />
+  <object meta_type="Workflow"
+          name="two_state_workflow"
+  />
+  <bindings>
+    <default>
+      <bound-workflow workflow_id="simple_intranet_workflow" />
+    </default>
+    <type type_id="Plone Site">
+      <bound-workflow workflow_id="simple_intranet_workflow" />
+    </type>
+    <type type_id="Area">
+      <bound-workflow workflow_id="two_state_workflow" />
+    </type>
+    <type type_id="Colaborador">
+      <bound-workflow workflow_id="two_state_workflow" />
+    </type>
+    <type type_id="Servico">
+      <bound-workflow workflow_id="two_state_workflow" />
+    </type>
+  </bindings>
+</object>

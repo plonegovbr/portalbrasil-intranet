@@ -1,0 +1,20 @@
+.ui.card.area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--color-surface-container-highest);
+  .icon {
+    margin-left: $spacing-xsmall;
+  }
+  .content {
+    .header {
+      .nome {
+        @include add(weight, bold);
+      }
+    }
+    .meta {
+      color: var(--color-on-surface);
+    }
+  }
+}

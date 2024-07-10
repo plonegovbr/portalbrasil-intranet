@@ -1,0 +1,143 @@
+{
+  "@id": "/estrutura",
+  "@type": "Document",
+  "UID": "0f37fe34245f439ba78901e36f6da9dc",
+  "allow_discussion": false,
+  "blocks": {
+    "5c5f0340-2e04-4520-8c33-7c64bb773cdc": {
+      "@type": "listing",
+      "headline": "\u00c1reas",
+      "headlineTag": "h2",
+      "styles": {},
+      "variation": "grid"
+    },
+    "7197995a-a9b8-474f-b861-20dc300c5c83": {
+      "@type": "search",
+      "headline": "Busca de colaboradores",
+      "listingBodyTemplate": "profiles",
+      "query": {
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Colaborador"
+            ]
+          },
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.relativePath",
+            "v": "./"
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "showSearchInput": true,
+      "showSortOn": true,
+      "showTotalResults": true
+    },
+    "82d68d70-3bcd-490a-ae1f-f0c2c7a4356a": {
+      "@type": "description"
+    },
+    "8c3e48fe-be12-437c-8aa9-0d7a51f65278": {
+      "@type": "title"
+    },
+    "undefined": {
+      "@type": "search",
+      "headline": "Busca de colaboradores",
+      "listingBodyTemplate": "grid",
+      "query": {
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Colaborador"
+            ]
+          },
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.relativePath",
+            "v": "./"
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "showSearchInput": true,
+      "showSortOn": true,
+      "showTotalResults": true
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "8c3e48fe-be12-437c-8aa9-0d7a51f65278",
+      "82d68d70-3bcd-490a-ae1f-f0c2c7a4356a",
+      "5c5f0340-2e04-4520-8c33-7c64bb773cdc",
+      "7197995a-a9b8-474f-b861-20dc300c5c83"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-07-04T23:05:48+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Estrutura organizacional de nossa institui\u00e7\u00e3o",
+  "effective": "2024-07-04T20:06:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {
+    "immediately_addable_types": [
+      "Area"
+    ],
+    "locally_allowed_types": [
+      "Document",
+      "Area"
+    ]
+  },
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "estrutura",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-07-10T15:49:25+00:00",
+  "nav_title": null,
+  "parent": {
+    "@id": "/",
+    "@type": "Plone Site",
+    "UID": "plone_site_root",
+    "description": "Intranet",
+    "title": "Intranet",
+    "type_title": "Plone Site"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Estrutura",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_intranet_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-07-04T23:05:48+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-07-04T23:06:41+00:00"
+      }
+    ]
+  }
+}

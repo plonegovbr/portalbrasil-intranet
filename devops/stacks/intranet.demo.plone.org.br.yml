@@ -1,0 +1,92 @@
+version: "3.8"
+
+services:
+  frontend:
+    image: ghcr.io/plonegovbr/portalbrasil-intranet-frontend:${STACK_PARAM:-latest}
+    environment:
+      RAZZLE_INTERNAL_API_PATH: http://pb-intranet-demo-org_backend:8080/Plone
+      RAZZLE_MATOMO_SITE_ID: 12
+      RAZZLE_MATOMO_URL: https://stats.ploneconf.org/
+    depends_on:
+      - backend
+    networks:
+      - public
+      - nw-pb-intranet-demo
+    deploy:
+      replicas: 2
+      update_config:
+        parallelism: 1
+        delay: 5s
+        order: start-first
+      placement:
+        constraints:
+          - node.labels.type == app
+      labels:
+        - traefik.enable=true
+        - traefik.docker.network=public
+        - traefik.constraint-label=public
+        # SERVICE
+        - traefik.http.services.svc-pb-intranet-demo-frontend.loadbalancer.server.port=3000
+        # HOSTS: Main
+        - traefik.http.routers.rt-pb-intranet-demo-frontend.rule=Host(`2024.ploneconf.org`)
+        - traefik.http.routers.rt-pb-intranet-demo-frontend.entrypoints=https
+        - traefik.http.routers.rt-pb-intranet-demo-frontend.tls=true
+        - traefik.http.routers.rt-pb-intranet-demo-frontend.tls.certresolver=le
+        - traefik.http.routers.rt-pb-intranet-demo-frontend.service=svc-pb-intranet-demo-frontend
+        - traefik.http.routers.rt-pb-intranet-demo-frontend.middlewares=gzip
+
+  backend:
+    image: ghcr.io/plonegovbr/portalbrasil-intranet-backend:${STACK_PARAM:-latest}
+    environment:
+      RELSTORAGE_DSN: "dbname='${DB_NAME:-plone}' user='${DB_USER:-plone}' host='${DB_HOST:-db}' password='${DB_PASSWORD:-plone}'"
+      ZOPE_FORM_MEMORY_LIMIT: 250MB
+      HONEYPOT_FIELD: ${HONEYPOT_FIELD:-e_mail}
+    networks:
+      - nw-pb-intranet-demo
+      - public
+    deploy:
+      replicas: 2
+      update_config:
+        parallelism: 1
+        delay: 5s
+        order: start-first
+      placement:
+        constraints:
+          - node.labels.type == app
+      labels:
+        - traefik.enable=true
+        - traefik.docker.network=public
+        - traefik.constraint-label=public
+        # SERVICE
+        - traefik.http.services.svc-pb-intranet-demo-backend.loadbalancer.server.port=8080
+        # MIDDLEWARES
+        ### ClassicUI Access Authentication
+        - traefik.http.middlewares.mw-pb-intranet-demo-backend-auth.basicauth.users=ploneconf:$$apr1$$OLAFAXJo$$8SyxCdTdo00Smv0wtJnEi1
+        ### Backend ++api++ VHM
+        - "traefik.http.middlewares.mw-pb-intranet-demo-vhm-cleanup.replacepathregex.regex=^/((\\+\\+api\\+\\+/){1,})($$|.*)"
+        - "traefik.http.middlewares.mw-pb-intranet-demo-vhm-cleanup.replacepathregex.replacement=/VirtualHostBase/https/2024.ploneconf.org/Plone/++api++/VirtualHostRoot/$$3"
+        - "traefik.http.middlewares.mw-pb-intranet-demo-vhm-api.replacepathregex.regex=^/\\+\\+api\\+\\+($$|/.*)"
+        - "traefik.http.middlewares.mw-pb-intranet-demo-vhm-api.replacepathregex.replacement=/VirtualHostBase/https/2024.ploneconf.org/Plone/++api++/VirtualHostRoot/$$1"
+        ### Backend ClassicUI VHM
+        - "traefik.http.middlewares.mw-pb-intranet-demo-vhm-classicui.replacepathregex.regex=^/ClassicUI($$|/.*)"
+        - "traefik.http.middlewares.mw-pb-intranet-demo-vhm-classicui.replacepathregex.replacement=/VirtualHostBase/https/2024.ploneconf.org/Plone/VirtualHostRoot/_vh_ClassicUI/$$1"
+        # ROUTES
+        ## ploneconf.org API
+        - traefik.http.routers.rt-pb-intranet-demo-backend.rule=Host(`2024.ploneconf.org`) && (PathPrefix(`/++api++`))
+        - traefik.http.routers.rt-pb-intranet-demo-backend.entrypoints=https
+        - traefik.http.routers.rt-pb-intranet-demo-backend.tls=true
+        - traefik.http.routers.rt-pb-intranet-demo-backend.service=svc-pb-intranet-demo-backend
+        - traefik.http.routers.rt-pb-intranet-demo-backend.middlewares=gzip,mw-pb-intranet-demo-vhm-cleanup,mw-pb-intranet-demo-vhm-api
+        ### ploneconf.org /ClassicUI - protected with basic auth (prevent SEOs from crawl it)
+        - traefik.http.routers.rt-pb-intranet-demo-classicui.rule=Host(`2024.ploneconf.org`) && (PathPrefix(`/ClassicUI`))
+        - traefik.http.routers.rt-pb-intranet-demo-classicui.entrypoints=https
+        - traefik.http.routers.rt-pb-intranet-demo-classicui.tls=true
+        - traefik.http.routers.rt-pb-intranet-demo-classicui.service=svc-pb-intranet-demo-backend
+        - traefik.http.routers.rt-pb-intranet-demo-classicui.middlewares=gzip,mw-pb-intranet-demo-backend-auth,mw-pb-intranet-demo-vhm-classicui
+
+networks:
+  public:
+    external: true
+    driver: overlay
+  nw-pb-intranet-demo:
+    driver: overlay

@@ -1,0 +1,53 @@
+{
+  "@id": "/imagens/plone-foundation",
+  "@type": "Image",
+  "UID": "12da9643d3ab4671ab995ca620900922",
+  "allow_discussion": false,
+  "contributors": [],
+  "created": "2024-07-07T01:08:25+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "plone-foundation",
+  "image": {
+    "blob_path": "12da9643d3ab4671ab995ca620900922/image/Plone Foundation",
+    "content-type": "image/png",
+    "filename": "Plone Foundation",
+    "height": 1080,
+    "size": 57903,
+    "width": 1920
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2024-07-07T01:08:25+00:00",
+  "parent": {
+    "@id": "/imagens",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "26e5fc286fce4c2e9613411cc0f0663f",
+    "description": "Imagens utilizadas na Intranet",
+    "effective": "2024-07-04T19:37:00+00:00",
+    "id": "imagens",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Imagens",
+    "type_title": "Page"
+  },
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Plone Foundation",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {}
+}

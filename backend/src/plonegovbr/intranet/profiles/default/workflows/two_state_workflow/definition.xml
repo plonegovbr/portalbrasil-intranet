@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dc-workflow attributes="title; description"
+             domain="plonegovbr.intranet"
+             initial_state="active"
+             state_variable="review_state"
+             title="Two State Workflow"
+             workflow_id="two_state_workflow"
+>
+  <permission>Access contents information</permission>
+  <permission>Modify portal content</permission>
+  <permission>View</permission>
+  <state attributes="title"
+         state_id="active"
+         title="Active"
+  >
+    <exit-transition transition_id="inactivate" />
+    <permission-map acquired="False"
+                    name="Access contents information"
+    >
+      <permission-role>Member</permission-role>
+      <permission-role>Anonymous</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Modify portal content"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Editor</permission-role>
+      <permission-role>Reviewer</permission-role>
+      <permission-role>Owner</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="View"
+    >
+      <permission-role>Member</permission-role>
+      <permission-role>Anonymous</permission-role>
+    </permission-map>
+  </state>
+  <state attributes="title"
+         state_id="inactive"
+         title="Inactive"
+  >
+    <exit-transition transition_id="activate" />
+    <permission-map acquired="False"
+                    name="Access contents information"
+    >
+      <permission-role>Member</permission-role>
+      <permission-role>Anonymous</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="Modify portal content"
+    >
+      <permission-role>Manager</permission-role>
+      <permission-role>Editor</permission-role>
+      <permission-role>Reviewer</permission-role>
+      <permission-role>Owner</permission-role>
+    </permission-map>
+    <permission-map acquired="False"
+                    name="View"
+    >
+      <permission-role>Member</permission-role>
+      <permission-role>Anonymous</permission-role>
+    </permission-map>
+  </state>
+  <transition after_script=""
+              attributes="title"
+              before_script=""
+              new_state="active"
+              title="Activate the item"
+              transition_id="activate"
+              trigger="USER"
+  >
+    <action category="workflow"
+            translate=""
+            url="%(content_url)s/content_publish_form"
+    >Activate</action>
+    <guard>
+      <guard-permission>Review portal content</guard-permission>
+    </guard>
+  </transition>
+  <transition after_script=""
+              attributes="title"
+              before_script=""
+              new_state="inactive"
+              title="Inactivate the item"
+              transition_id="inactivate"
+              trigger="USER"
+  >
+    <action category="workflow"
+            translate=""
+            url="%(content_url)s/content_publish_form"
+    >Inactivate</action>
+    <guard>
+      <guard-permission>Review portal content</guard-permission>
+    </guard>
+  </transition>
+  <variable for_catalog="False"
+            for_status="True"
+            update_always="True"
+            variable_id="action"
+  >
+    <description>The last transition</description>
+    <default>
+
+      <expression>transition/getId|nothing</expression>
+    </default>
+    <guard>
+</guard>
+  </variable>
+  <variable for_catalog="False"
+            for_status="True"
+            update_always="True"
+            variable_id="actor"
+  >
+    <description>The ID of the user who performed the last transition</description>
+    <default>
+
+      <expression>user/getId</expression>
+    </default>
+    <guard>
+</guard>
+  </variable>
+  <variable for_catalog="False"
+            for_status="True"
+            update_always="True"
+            variable_id="comments"
+  >
+    <description>Comments about the last transition</description>
+    <default>
+
+      <expression>python:state_change.kwargs.get('comment', '')</expression>
+    </default>
+    <guard>
+</guard>
+  </variable>
+  <variable for_catalog="False"
+            for_status="False"
+            update_always="False"
+            variable_id="review_history"
+  >
+    <description>Provides access to workflow history</description>
+    <default>
+
+      <expression>state_change/getHistory</expression>
+    </default>
+    <guard>
+      <guard-permission>Request review</guard-permission>
+      <guard-permission>Review portal content</guard-permission>
+    </guard>
+  </variable>
+  <variable for_catalog="False"
+            for_status="True"
+            update_always="True"
+            variable_id="time"
+  >
+    <description>Time of the last transition</description>
+    <default>
+
+      <expression>state_change/getDateTime</expression>
+    </default>
+    <guard>
+</guard>
+  </variable>
+</dc-workflow>

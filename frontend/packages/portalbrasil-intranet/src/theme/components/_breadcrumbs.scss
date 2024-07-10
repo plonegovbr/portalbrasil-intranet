@@ -1,0 +1,28 @@
+#main {
+  .breadcrumbs {
+    padding: 10px 0;
+    background-color: var(--color-tertiary-container);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+
+    .breadcrumb {
+      @include default-container-width();
+      color: var(--color-on-tertiary-container) !important;
+      text-transform: uppercase;
+
+      a {
+        color: var(--color-on-tertiary-container) !important;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .divider::before {
+        color: var(--color-on-tertiary-container);
+        content: '▲';
+        @include add(size, 2xs);
+      }
+    }
+  }
+}

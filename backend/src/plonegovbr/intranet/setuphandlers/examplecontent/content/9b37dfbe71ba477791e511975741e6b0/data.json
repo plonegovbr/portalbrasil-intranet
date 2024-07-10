@@ -1,0 +1,75 @@
+{
+  "@id": "/estrutura/diretoria-geral/recursos-humanos/2354",
+  "@type": "Colaborador",
+  "UID": "9b37dfbe71ba477791e511975741e6b0",
+  "allow_discussion": false,
+  "area_info": {
+    "@id": "/estrutura/diretoria-geral/recursos-humanos",
+    "@type": "Area",
+    "Subject": [],
+    "UID": "b31a223c7b0b4146b8b17b640b9d39e1",
+    "description": "Gest\u00e3o de pessoas da nossa institui\u00e7\u00e3o",
+    "effective": "1969-12-31T03:00:00+00:00",
+    "id": "recursos-humanos",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "active",
+    "title": "Recursos Humanos",
+    "type_title": "\u00c1rea"
+  },
+  "birthdate": null,
+  "changeNote": "",
+  "created": "2024-07-10T14:43:55+00:00",
+  "description": "Diretora de RH",
+  "email": "costa@exemplo.org.br",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "2354",
+  "image": {
+    "blob_path": "9b37dfbe71ba477791e511975741e6b0/image/rh.jpeg",
+    "content-type": "image/jpeg",
+    "filename": "rh.jpeg",
+    "height": 500,
+    "size": 44967,
+    "width": 500
+  },
+  "image_caption": null,
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2024-07-10T14:55:01+00:00",
+  "parent": {
+    "@id": "/estrutura/diretoria-geral/recursos-humanos",
+    "@type": "Area",
+    "Subject": [],
+    "UID": "b31a223c7b0b4146b8b17b640b9d39e1",
+    "description": "Gest\u00e3o de pessoas da nossa institui\u00e7\u00e3o",
+    "effective": "1969-12-31T03:00:00+00:00",
+    "id": "recursos-humanos",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "active",
+    "title": "Recursos Humanos",
+    "type_title": "\u00c1rea"
+  },
+  "review_state": "active",
+  "telefone": null,
+  "title": "Cl\u00e1udia Costa",
+  "type_title": "Colaborador",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "two_state_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "active",
+        "time": "2024-07-10T14:43:55+00:00"
+      }
+    ]
+  }
+}

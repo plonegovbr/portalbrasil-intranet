@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rolemap>
+  <permissions>
+    <permission acquire="False"
+                name="plonegovbr.intranet: Add Colaborador"
+    />
+    <permission acquire="False"
+                name="plonegovbr.intranet: Add Area"
+    />
+    <permission acquire="False"
+                name="plonegovbr.intranet: Add Servico"
+    />
+  </permissions>
+</rolemap>

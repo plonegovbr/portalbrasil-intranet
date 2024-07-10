@@ -1,0 +1,13 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+  <!-- Serializers -->
+  <adapter factory=".area.AreaJSONSerializer" />
+  <adapter factory=".colaborador.ColaboradorJSONSerializer" />
+
+  <!-- Utility to serialize brain metadata -->
+  <utility
+      factory=".summary.JSONSummarySerializerMetadata"
+      name="plonegovbr.intranet.summary_serializer_metadata"
+      />
+
+</configure>

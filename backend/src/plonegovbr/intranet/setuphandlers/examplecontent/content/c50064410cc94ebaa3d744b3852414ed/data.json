@@ -1,0 +1,241 @@
+{
+  "@id": "/estrutura/diretoria-geral",
+  "@type": "Area",
+  "UID": "c50064410cc94ebaa3d744b3852414ed",
+  "allow_discussion": false,
+  "areas": [
+    {
+      "@id": "/estrutura/diretoria-geral/recursos-humanos",
+      "@type": "Area",
+      "Subject": [],
+      "UID": "b31a223c7b0b4146b8b17b640b9d39e1",
+      "description": "Gest\u00e3o de pessoas da nossa institui\u00e7\u00e3o",
+      "effective": "1969-12-31T03:00:00+00:00",
+      "id": "recursos-humanos",
+      "image_field": null,
+      "image_scales": {},
+      "review_state": "active",
+      "title": "Recursos Humanos",
+      "type_title": "\u00c1rea"
+    }
+  ],
+  "blocks": {
+    "17439360-8d22-4d0c-a1de-a2ccae5b8fcf": {
+      "@type": "colaboradoresBlock",
+      "title": "Colaboradores"
+    },
+    "85d2ee58-dda5-40f3-b4fd-02c1abd987ce": {
+      "@type": "gestorBlock",
+      "title": "Gestor"
+    },
+    "97b3db1b-4853-46b7-897a-ed8b2f0dfeb7": {
+      "@type": "areasBlock",
+      "title": "\u00c1reas"
+    },
+    "9df56c56-67d7-4b54-95d5-4b879bc56895": {
+      "@type": "description"
+    },
+    "df871501-75ef-4a58-98f7-abff5eff18fb": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "df871501-75ef-4a58-98f7-abff5eff18fb",
+      "9df56c56-67d7-4b54-95d5-4b879bc56895",
+      "85d2ee58-dda5-40f3-b4fd-02c1abd987ce",
+      "97b3db1b-4853-46b7-897a-ed8b2f0dfeb7",
+      "17439360-8d22-4d0c-a1de-a2ccae5b8fcf"
+    ]
+  },
+  "cep": null,
+  "changeNote": "",
+  "cidade": null,
+  "colaboradores": [
+    {
+      "@id": "/estrutura/diretoria-geral/1234",
+      "@type": "Colaborador",
+      "Subject": [],
+      "UID": "fe1c6ad17162484680a1143ac4ad47f6",
+      "description": "Diretora Geral",
+      "effective": "1969-12-31T03:00:00+00:00",
+      "id": "1234",
+      "image_field": null,
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/jpeg",
+            "download": "@@images/image-1024-9a49ce6964dcc5da9b115f8690cc0e2a.jpeg",
+            "filename": "image.15359.3654189.jpg",
+            "height": 1024,
+            "scales": {
+              "icon": {
+                "download": "@@images/image-32-7eb2d2cfeca9e38e5104abadae9066db.jpeg",
+                "height": 32,
+                "width": 32
+              },
+              "large": {
+                "download": "@@images/image-800-91a7f7cd3cbebb8f64b0c8eee9e807a6.jpeg",
+                "height": 800,
+                "width": 800
+              },
+              "larger": {
+                "download": "@@images/image-1000-2d1484ce66bc241d3d04b9a1fcc8e8ee.jpeg",
+                "height": 1000,
+                "width": 1000
+              },
+              "mini": {
+                "download": "@@images/image-200-ab7b5e35224a7c9c22cefddcc34a20e1.jpeg",
+                "height": 200,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-7305641ef867e5460243896226152798.jpeg",
+                "height": 400,
+                "width": 400
+              },
+              "teaser": {
+                "download": "@@images/image-600-e475e2ed8cb80c72d3478972dfc0d1bd.jpeg",
+                "height": 600,
+                "width": 600
+              },
+              "thumb": {
+                "download": "@@images/image-128-2d8ef5e61baa6248a2bc55a50a3a9c95.jpeg",
+                "height": 128,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-7b49054e3dd5a50c641d60a29b822092.jpeg",
+                "height": 64,
+                "width": 64
+              }
+            },
+            "size": 432438,
+            "width": 1024
+          }
+        ]
+      },
+      "review_state": "active",
+      "title": "Joana Silva",
+      "type_title": "Colaborador"
+    }
+  ],
+  "complemento": null,
+  "created": "2024-07-04T23:23:43+00:00",
+  "description": "Diretoria geral da institui\u00e7\u00e3o",
+  "email": null,
+  "endereco": null,
+  "estado": null,
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "diretoria-geral",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2024-07-10T14:39:41+00:00",
+  "nav_title": null,
+  "parent": {
+    "@id": "/estrutura",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "0f37fe34245f439ba78901e36f6da9dc",
+    "description": "Estrutura organizacional de nossa institui\u00e7\u00e3o",
+    "effective": "2024-07-04T23:06:00+00:00",
+    "id": "estrutura",
+    "image_field": null,
+    "image_scales": {
+      "preview_image": [
+        {
+          "content-type": "image/png",
+          "download": "@@images/preview_image-3600-ce1288ed7ca79e14f16a0be9bb206785.png",
+          "filename": "estrutura.png",
+          "height": 1966,
+          "scales": {
+            "great": {
+              "download": "@@images/preview_image-1200-90e631b9782c4fa281cee1fae313ced7.png",
+              "height": 655,
+              "width": 1200
+            },
+            "huge": {
+              "download": "@@images/preview_image-1600-c55487fe193969fa83742242ee98bc1d.png",
+              "height": 873,
+              "width": 1600
+            },
+            "icon": {
+              "download": "@@images/preview_image-32-0aa88002269c7c243578369f091ee172.png",
+              "height": 17,
+              "width": 32
+            },
+            "large": {
+              "download": "@@images/preview_image-800-8399f9cc59bce66053ee5a6f0a1f6ba2.png",
+              "height": 436,
+              "width": 800
+            },
+            "larger": {
+              "download": "@@images/preview_image-1000-bfaa4dfd1959e743361030fbcac2bb64.png",
+              "height": 546,
+              "width": 1000
+            },
+            "mini": {
+              "download": "@@images/preview_image-200-bfc957e88f12db978b06876c8a286e06.png",
+              "height": 109,
+              "width": 200
+            },
+            "preview": {
+              "download": "@@images/preview_image-400-d79cec2eee8937564a15cd3a4d903152.png",
+              "height": 218,
+              "width": 400
+            },
+            "teaser": {
+              "download": "@@images/preview_image-600-7411c6643d7ce59a159aad03466bac81.png",
+              "height": 327,
+              "width": 600
+            },
+            "thumb": {
+              "download": "@@images/preview_image-128-e37c7f5b925db58e3c81bbe184b55edb.png",
+              "height": 69,
+              "width": 128
+            },
+            "tile": {
+              "download": "@@images/preview_image-64-142b53e5bdc252d99cc85f5ac5fa0e30.png",
+              "height": 34,
+              "width": 64
+            }
+          },
+          "size": 320538,
+          "width": 3600
+        }
+      ]
+    },
+    "review_state": "published",
+    "title": "Estrutura",
+    "type_title": "Page"
+  },
+  "review_state": "active",
+  "telefone": null,
+  "title": "Diretoria Geral",
+  "type_title": "\u00c1rea",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "two_state_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "active",
+        "time": "2024-05-16T20:18:37+00:00"
+      },
+      {
+        "action": "activate",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "active",
+        "time": "2024-05-17T09:39:07+00:00"
+      }
+    ]
+  }
+}

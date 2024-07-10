@@ -1,0 +1,363 @@
+{
+  "@id": "/Plone",
+  "@type": "Plone Site",
+  "UID": "plone_site_root",
+  "allow_discussion": null,
+  "blocks": {
+    "4979b879-0499-494e-9ca9-967aae7af1f4": {
+      "@type": "gridBlock",
+      "blocks": {
+        "41863fc3-5e05-4e50-8166-607686a34758": {
+          "@type": "teaser",
+          "description": "A vers\u00e3o 1.0 do Portal Brasil: Intranet disponibiliza alguns novos tipos de conte\u00fado.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/fdd8db018975496db797f1aa1ce559ef",
+              "@type": "Document",
+              "Description": "A vers\u00e3o 1.0 do Portal Brasil: Intranet disponibiliza alguns novos tipos de conte\u00fado.",
+              "Title": "Tipos de Conte\u00fado",
+              "getRemoteUrl": null,
+              "hasPreviewImage": true,
+              "head_title": null,
+              "image_field": "preview_image",
+              "title": "Tipos de Conte\u00fado"
+            }
+          ],
+          "overwrite": true,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Tipos de Conte\u00fado"
+        },
+        "b44ca6dd-a55f-4a15-9727-3297eeaade15": {
+          "@type": "teaser",
+          "description": "Estrutura organizacional de nossa institui\u00e7\u00e3o",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/0f37fe34245f439ba78901e36f6da9dc",
+              "@type": "Document",
+              "Description": "Estrutura organizacional de nossa institui\u00e7\u00e3o",
+              "Title": "Estrutura",
+              "getRemoteUrl": null,
+              "hasPreviewImage": true,
+              "head_title": null,
+              "image_field": "preview_image",
+              "title": "Estrutura"
+            }
+          ],
+          "overwrite": true,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Estrutura"
+        },
+        "dc468cc2-ccda-4e25-a3db-116ca9f99ef2": {
+          "@type": "teaser",
+          "description": "Tema visual baseado no volto-light-theme",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/17b06e11b95941f08a6c483d0869f69d",
+              "@type": "Document",
+              "Description": "Tema visual baseado no volto-light-theme",
+              "Title": "Tema",
+              "getRemoteUrl": null,
+              "hasPreviewImage": true,
+              "head_title": null,
+              "image_field": "preview_image",
+              "title": "Tema"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Tema"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "dc468cc2-ccda-4e25-a3db-116ca9f99ef2",
+          "41863fc3-5e05-4e50-8166-607686a34758",
+          "b44ca6dd-a55f-4a15-9727-3297eeaade15"
+        ]
+      },
+      "headline": "Funcionalidades",
+      "styles": {
+        "backgroundColor": "grey"
+      }
+    },
+    "86715d66-2c57-4f44-be47-38b5ae722732": {
+      "@type": "listing",
+      "headline": "\u00daltimas not\u00edcias",
+      "headlineTag": "h2",
+      "querystring": {
+        "b_size": "4",
+        "limit": "4",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "News Item"
+            ]
+          },
+          {
+            "i": "review_state",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "published"
+            ]
+          }
+        ],
+        "sort_on": "effective",
+        "sort_order": "descending",
+        "sort_order_boolean": true
+      },
+      "styles": {},
+      "variation": "grid"
+    },
+    "cf694a86-6ef4-43e2-b249-24f7ca3a55e9": {
+      "@type": "gridBlock",
+      "blocks": {
+        "71047227-7fac-4012-8c5f-e2f54cc9ad70": {
+          "@type": "teaser",
+          "description": "Publique o calend\u00e1rio de eventos da institui\u00e7\u00e3o.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/abcd08c1843b4540b90cb73b9e9fc050",
+              "@type": "Document",
+              "Description": "Eventos internos ou externos. com participa\u00e7\u00e3o de nossa institui\u00e7\u00e3o",
+              "Title": "Eventos",
+              "getRemoteUrl": null,
+              "hasPreviewImage": true,
+              "head_title": null,
+              "image_field": "preview_image",
+              "title": "Eventos"
+            }
+          ],
+          "overwrite": true,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Eventos"
+        },
+        "86acbd7e-e3df-42cf-8b65-00e0b881a205": {
+          "@type": "teaser",
+          "description": "Construa formul\u00e1rios e os adicione em qualquer conte\u00fado com o bloco de formul\u00e1rios.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/1eb1b5c533dc4cb8b3faff4eb8750785",
+              "@type": "Document",
+              "Description": "Construa formul\u00e1rios e os adicione em qualquer conte\u00fado com o bloco de formul\u00e1rios.",
+              "Title": "Formul\u00e1rios",
+              "getRemoteUrl": null,
+              "hasPreviewImage": true,
+              "head_title": null,
+              "image_field": "preview_image",
+              "title": "Formul\u00e1rios"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Formul\u00e1rios"
+        },
+        "a5ff65b5-7029-41f7-96a1-810a008e51a2": {
+          "@type": "teaser",
+          "description": "Usu\u00e1rios podem favoritar suas p\u00e1ginas e conte\u00fados mais acessados, e tamb\u00e9m podem comentar e deixar suas opini\u00f5es.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/7bc5679d36c44d7ea81663b0595c6be0",
+              "@type": "Document",
+              "Description": "O Portal Brasil: Intranet disponibiliza mecanismo de participa\u00e7\u00e3o via coment\u00e1rios.",
+              "Title": "Interatividade",
+              "getRemoteUrl": null,
+              "hasPreviewImage": true,
+              "head_title": null,
+              "image_field": "preview_image",
+              "title": "Interatividade"
+            }
+          ],
+          "overwrite": true,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Interatividade"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "86acbd7e-e3df-42cf-8b65-00e0b881a205",
+          "a5ff65b5-7029-41f7-96a1-810a008e51a2",
+          "71047227-7fac-4012-8c5f-e2f54cc9ad70"
+        ]
+      },
+      "styles": {
+        "backgroundColor": "grey"
+      }
+    },
+    "e5fb316f-f3af-4df1-b3d8-fb46ac07cc11": {
+      "@type": "slider",
+      "autoplayDelay": 4000,
+      "autoplayEnabled": false,
+      "autoplayJump": false,
+      "slides": [
+        {
+          "@id": "8e5603d5-a253-4094-9c45-37708e5bd3a3",
+          "buttonText": "Saiba mais",
+          "description": "Solu\u00e7\u00e3o em Plone para sua Intranet",
+          "flagAlign": "left",
+          "head_title": "100% Livre",
+          "href": [
+            {
+              "@id": "resolveuid/e65e86c1d5d14560a6aeffe2e90d747b",
+              "@type": "Document",
+              "Description": "Conhe\u00e7a a nova Intranet da nossa institui\u00e7\u00e3o",
+              "Title": "Sobre",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "title": "Sobre"
+            }
+          ],
+          "preview_image": [
+            {
+              "@id": "resolveuid/8741d333db4c4736957db5742906aba6",
+              "@type": "Image",
+              "CreationDate": "2024-07-04T16:39:36-03:00",
+              "Creator": "Jr Korpa",
+              "Date": "2024-07-04T16:39:36-03:00",
+              "Description": "",
+              "EffectiveDate": "None",
+              "ExpirationDate": "None",
+              "ModificationDate": "2024-07-04T16:39:36-03:00",
+              "Subject": [],
+              "Title": "Fundo Roxo e Preto",
+              "Type": "Imagem",
+              "UID": "8741d333db4c4736957db5742906aba6",
+              "author_name": null,
+              "cmf_uid": null,
+              "commentators": [],
+              "created": "2024-07-04T19:39:36+00:00",
+              "description": "",
+              "effective": "1969-12-31T03:00:00+00:00",
+              "end": null,
+              "exclude_from_nav": false,
+              "expires": "2499-12-31T03:00:00+00:00",
+              "getIcon": true,
+              "getId": "image-3600-d11e328d24e6a75a36d38008b7b1e0c8.jpeg",
+              "getObjSize": "882.6 KB",
+              "getPath": "/Plone/imagens/image-3600-d11e328d24e6a75a36d38008b7b1e0c8.jpeg",
+              "getRemoteUrl": null,
+              "getURL": "http://localhost:3000/imagens/image-3600-d11e328d24e6a75a36d38008b7b1e0c8.jpeg",
+              "hasPreviewImage": null,
+              "head_title": null,
+              "id": "image-3600-d11e328d24e6a75a36d38008b7b1e0c8.jpeg",
+              "image_field": "image",
+              "in_response_to": null,
+              "is_folderish": false,
+              "last_comment_date": null,
+              "listCreators": [
+                "Jr Korpa"
+              ],
+              "location": null,
+              "mime_type": "image/jpeg",
+              "modified": "2024-07-04T19:39:36+00:00",
+              "nav_title": null,
+              "portal_type": "Image",
+              "review_state": null,
+              "start": null,
+              "sync_uid": null,
+              "title": "Fundo Roxo e Preto",
+              "total_comments": 0,
+              "type_title": "Imagem"
+            }
+          ],
+          "title": "PortalBrasil: Intranet"
+        },
+        {
+          "@id": "f50547c0-9459-47af-9806-48217c98a796",
+          "buttonText": "Saiba mais",
+          "description": "Edi\u00e7\u00e3o 2024 do encontro mundial da comunidade Plone,",
+          "flagAlign": "right",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/62f52ef944a1485893df3a7248f6eba5",
+              "@type": "Event",
+              "Description": "Edi\u00e7\u00e3o 2024 do encontro mundial da comunidade Plone,",
+              "Title": "Plone Conference 2024",
+              "hasPreviewImage": true,
+              "head_title": null,
+              "image_field": "preview_image",
+              "title": "Plone Conference 2024"
+            }
+          ],
+          "title": "Plone Conference 2024"
+        }
+      ],
+      "styles": {
+        "backgroundColor": "transparent"
+      }
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "e5fb316f-f3af-4df1-b3d8-fb46ac07cc11",
+      "4979b879-0499-494e-9ca9-967aae7af1f4",
+      "cf694a86-6ef4-43e2-b249-24f7ca3a55e9",
+      "86715d66-2c57-4f44-be47-38b5ae722732"
+    ]
+  },
+  "contributors": [],
+  "creators": [
+    "admin"
+  ],
+  "description": "Intranet",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "Plone",
+  "is_folderish": true,
+  "items_total": 6,
+  "language": "##DEFAULT##",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "parent": {},
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "table_of_contents": null,
+  "title": "Intranet",
+  "type_title": "Plone Site",
+  "workflow_history": {
+    "simple_intranet_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-05-16T20:18:37+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-05-17T09:39:07+00:00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+.q.container.barra-wrapper {
+  max-width: 100% !important;
+  background-color: var(--a18n-color-bg) !important;
+
+  .barra {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: right;
+    padding: $spacing-xsmall 0px;
+
+    .option {
+      display: inline flex;
+      min-width: 50px;
+      align-items: center;
+      margin-right: $spacing-small;
+
+      &.contraste {
+        min-width: 30px;
+      }
+
+      &.fonte {
+        min-width: 150px;
+      }
+
+      &.link {
+        min-width: 160px;
+      }
+
+      button {
+        border: unset;
+        background: unset;
+        color: var(--a18n-color-text);
+        font-size: var(--a18n-font-size);
+        font-weight: var(--a18n-font-weight);
+        line-height: var(--a18n-line-height);
+
+        > svg {
+          height: 20px !important;
+        }
+      }
+    }
+
+    .link.texto {
+      .label {
+        padding-left: $spacing-xsmall;
+        color: var(--a18n-color-text) !important;
+        font-size: var(--a18n-font-size);
+        font-weight: var(--a18n-font-weight);
+        line-height: var(--a18n-line-height);
+      }
+
+      svg.icon {
+        fill: var(--a18n-color-icon) !important;
+      }
+    }
+  }
+}

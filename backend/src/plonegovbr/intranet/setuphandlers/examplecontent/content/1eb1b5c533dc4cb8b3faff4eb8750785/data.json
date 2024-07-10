@@ -1,0 +1,164 @@
+{
+  "@id": "/sobre/formularios",
+  "@type": "Document",
+  "UID": "1eb1b5c533dc4cb8b3faff4eb8750785",
+  "allow_discussion": false,
+  "blocks": {
+    "00152208-f5c6-4340-89a3-b03c2c0481d8": {
+      "@type": "slate",
+      "plaintext": "O Portal Brasil: Intranet integra a ferramenta volto-form-block, desenvolvida pela empresa RedTurtle, para a cria\u00e7\u00e3o de formul\u00e1rios simples.",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": "O Portal Brasil: Intranet integra a ferramenta volto-form-block, desenvolvida pela empresa RedTurtle, para a cria\u00e7\u00e3o de formul\u00e1rios simples."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "6dc06f92-92e9-4a7c-bfe4-ba3afce3587f": {
+      "@type": "title"
+    },
+    "9c61bb43-a2de-46c8-bdff-4ae6b3b34a6f": {
+      "@type": "form",
+      "captcha": "honeypot",
+      "configValidation": {
+        "required_fields": [
+          "default_to",
+          "default_from",
+          "default_subject",
+          "captcha"
+        ],
+        "schema_validation": [],
+        "valid": true
+      },
+      "default_from": "foo@example.org",
+      "default_subject": "Nova opini\u00e3o sobre a Intranet",
+      "default_to": "bar@example.org",
+      "description": "Por favor, avalie a nova Intranet",
+      "lastChange": 1720303690333,
+      "mail_header": {
+        "data": "<p>Recebemos uma nova avalia\u00e7\u00e3o da nossa Intranet</p>"
+      },
+      "remove_data_after_days": "-1",
+      "send_email": true,
+      "show_cancel": false,
+      "store": true,
+      "subblocks": [
+        {
+          "description": "Por favor, nos informe seu nome",
+          "field_id": "1720303456703",
+          "field_type": "text",
+          "id": "1720303456703",
+          "label": "Nome",
+          "required": true
+        },
+        {
+          "field_id": "1720303615840",
+          "field_type": "from",
+          "id": "1720303615840",
+          "label": "E-mail",
+          "required": true,
+          "use_as_reply_to": true
+        },
+        {
+          "field_id": "1720303638421",
+          "field_type": "select",
+          "id": "1720303638421",
+          "input_values": [
+            "Estou satisfeito(a)",
+            "Poderia ser melhor",
+            "Que tal termos coment\u00e1rios?"
+          ],
+          "label": "Avalia\u00e7\u00e3o",
+          "required": true
+        }
+      ],
+      "submit_label": "Avaliar",
+      "title": "Exemplo de formul\u00e1rio"
+    },
+    "b5021fc0-5424-4490-b425-52c8becd09f8": {
+      "@type": "description"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "6dc06f92-92e9-4a7c-bfe4-ba3afce3587f",
+      "b5021fc0-5424-4490-b425-52c8becd09f8",
+      "00152208-f5c6-4340-89a3-b03c2c0481d8",
+      "9c61bb43-a2de-46c8-bdff-4ae6b3b34a6f"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-07-06T22:08:14+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Construa formul\u00e1rios e os adicione em qualquer conte\u00fado com o bloco de formul\u00e1rios.",
+  "effective": "2024-07-06T19:13:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "formularios",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-07-07T01:21:26+00:00",
+  "nav_title": null,
+  "parent": {
+    "@id": "/sobre",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "e65e86c1d5d14560a6aeffe2e90d747b",
+    "description": "Conhe\u00e7a a nova Intranet da nossa institui\u00e7\u00e3o",
+    "effective": "2024-07-06T21:57:00+00:00",
+    "id": "sobre",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Sobre",
+    "type_title": "Page"
+  },
+  "preview_caption": null,
+  "preview_image": {
+    "blob_path": "1eb1b5c533dc4cb8b3faff4eb8750785/preview_image/scott-graham-OQMZwNd3ThU-unsplash.jpg",
+    "content-type": "image/jpeg",
+    "filename": "scott-graham-OQMZwNd3ThU-unsplash.jpg",
+    "height": 4912,
+    "size": 3647929,
+    "width": 7360
+  },
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Formul\u00e1rios",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_intranet_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-07-06T22:08:14+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-07-06T22:13:49+00:00"
+      }
+    ]
+  }
+}

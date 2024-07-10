@@ -1,0 +1,123 @@
+{
+  "@id": "/imagens",
+  "@type": "Document",
+  "UID": "26e5fc286fce4c2e9613411cc0f0663f",
+  "allow_discussion": false,
+  "blocks": {
+    "128ce72b-e6b9-4a75-bb27-161994ed9ac7": {
+      "@type": "slate",
+      "plaintext": "",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "608d6c56-ed1c-4d89-8600-81be578d7b6b": {
+      "@type": "title"
+    },
+    "66feaf9a-7c25-47be-a2fa-237349e6dbe2": {
+      "@type": "description"
+    },
+    "89def54d-98b5-4d92-b34d-b193e968c4c6": {
+      "@type": "listing",
+      "headlineTag": "h2",
+      "querystring": {
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Image"
+            ]
+          },
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.relativePath",
+            "v": "./"
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "styles": {},
+      "variation": "grid"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "608d6c56-ed1c-4d89-8600-81be578d7b6b",
+      "66feaf9a-7c25-47be-a2fa-237349e6dbe2",
+      "89def54d-98b5-4d92-b34d-b193e968c4c6",
+      "128ce72b-e6b9-4a75-bb27-161994ed9ac7"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-07-04T19:36:41+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Imagens utilizadas na Intranet",
+  "effective": "2024-07-04T16:37:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {
+    "immediately_addable_types": [
+      "Image"
+    ],
+    "locally_allowed_types": [
+      "Image"
+    ]
+  },
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "imagens",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-07-10T14:30:34+00:00",
+  "nav_title": null,
+  "parent": {
+    "@id": "/",
+    "@type": "Plone Site",
+    "UID": "plone_site_root",
+    "description": "Intranet",
+    "title": "Intranet",
+    "type_title": "Plone Site"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Imagens",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_intranet_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-07-04T19:36:41+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-07-04T19:37:21+00:00"
+      }
+    ]
+  }
+}

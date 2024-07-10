@@ -1,0 +1,122 @@
+{
+  "schema": {
+    "title": "PortalBrasil: Intranet",
+    "description": "Intranet utilizando Plone",
+    "type": "object",
+    "definitions": {
+      "workflows": {
+        "oneOf": [
+          {
+            "const": "restricted",
+            "title": "Requer autenticação"
+          },
+          {
+            "const": "public",
+            "title": "Acesso anônimo"
+          }
+        ]
+      },
+      "timezones": {
+        "title": "Fuso horário",
+        "type": "string",
+        "default": "America/Sao_Paulo",
+        "description": "A configuração de fuso horário padrão do portal. Os usuários poderão definir seu próprio fuso horário, se os fusos horários disponíveis estiverem definidos nas configurações de data e hora.",
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "America/Rio_Branco"
+            ],
+            "title": "Acre (America/Rio_Branco)"
+          },
+          {
+            "type": "string",
+            "enum": [
+              "America/Noronha"
+            ],
+            "title": "Fernando de Noronha (America/Noronha)"
+          },
+          {
+            "type": "string",
+            "enum": [
+              "America/Sao_Paulo"
+            ],
+            "title": "Brasília (America/Sao_Paulo)"
+          },
+          {
+            "type": "string",
+            "enum": [
+              "America/Manaus"
+            ],
+            "title": "Manaus (America/Manaus)"
+          },
+          {
+            "type": "string",
+            "enum": [
+              "UTC"
+            ],
+            "title": "UTC (UTC)"
+          }
+        ]
+      }
+    },
+    "required": [
+      "site_id",
+      "title",
+      "workflow"
+    ],
+    "properties": {
+      "site_id": {
+        "type": "string",
+        "title": "Identificador da Intranet",
+        "default": "Plone",
+        "description": "Nome curto da Intranet. Deve ser único nessa instalação."
+      },
+      "title": {
+        "type": "string",
+        "title": "Título",
+        "default": "Intranet",
+        "description": "Um título curto para o site. Ele será mostrado como parte do título da janela do navegador em cada página."
+      },
+      "description": {
+        "type": "string",
+        "title": "Descrição da Intranet",
+        "default": "Intranet da nossa instituição"
+      },
+      "site_logo": {
+        "type": "string",
+        "format": "data-url",
+        "title": "Logo da Intranet"
+      },
+      "workflow": {
+        "type": "string",
+        "title": "Modo de Acesso",
+        "$ref": "#/definitions/workflows",
+        "default": "restricted"
+      },
+      "default_language": {
+        "type": "string",
+        "title": "Idioma",
+        "default": "pt-br"
+      },
+      "portal_timezone": {"$ref": "#/definitions/timezones"},
+      "setup_content": {
+        "type": "boolean",
+        "title": "Conteúdo Base",
+        "description": "Devemos criar a estrutura de conteúdo da Intranet durante a instalação?",
+        "default": true
+      },
+      "demo_content": {
+        "type": "boolean",
+        "title": "Conteúdo de exemplo (Demo)",
+        "description": "Devemos adicionar conteúdo de exemplo durante a criação do site?",
+        "default": false
+      }
+    }
+  },
+  "uischema": {
+    "site_id": {"ui:widget": "hidden"},
+    "setup_content": {"ui:widget": "hidden"},
+    "default_language": {"ui:widget": "hidden"}
+  }
+}

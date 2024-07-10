@@ -1,0 +1,53 @@
+{
+  "@id": "/imagens/image-3600-d11e328d24e6a75a36d38008b7b1e0c8.jpeg",
+  "@type": "Image",
+  "UID": "8741d333db4c4736957db5742906aba6",
+  "allow_discussion": false,
+  "contributors": [],
+  "created": "2024-07-04T19:39:36+00:00",
+  "creators": [
+    "Jr Korpa"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "image-3600-d11e328d24e6a75a36d38008b7b1e0c8.jpeg",
+  "image": {
+    "blob_path": "8741d333db4c4736957db5742906aba6/image/image-3600-d11e328d24e6a75a36d38008b7b1e0c8.jpeg",
+    "content-type": "image/jpeg",
+    "filename": "image-3600-d11e328d24e6a75a36d38008b7b1e0c8.jpeg",
+    "height": 2400,
+    "size": 903735,
+    "width": 3600
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2024-07-04T19:39:36+00:00",
+  "parent": {
+    "@id": "/imagens",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "26e5fc286fce4c2e9613411cc0f0663f",
+    "description": "Imagens utilizadas na Intranet",
+    "effective": "2024-07-04T19:37:00+00:00",
+    "id": "imagens",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Imagens",
+    "type_title": "Page"
+  },
+  "review_state": null,
+  "rights": "https://unsplash.com/photos/purple-and-black-abstract-painting-SFT9G3pAxLY",
+  "subjects": [],
+  "title": "Fundo Roxo e Preto",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {}
+}

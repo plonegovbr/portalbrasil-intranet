@@ -1,0 +1,118 @@
+{
+  "@id": "/noticias",
+  "@type": "Document",
+  "UID": "42bb0222abfe4356949de633f5cc25e6",
+  "allow_discussion": false,
+  "blocks": {
+    "205b0bf6-2015-4426-8ae8-554cdbd96e26": {
+      "@type": "description"
+    },
+    "41d61d55-7a0b-4db5-8edc-792fa0dd6ef3": {
+      "@type": "title"
+    },
+    "ac6c4502-973a-4566-8ed4-21261dbf26c8": {
+      "@type": "listing",
+      "headline": "\u00daltimas not\u00edcias",
+      "headlineTag": "h2",
+      "querystring": {
+        "b_size": "10",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "News Item"
+            ]
+          },
+          {
+            "i": "review_state",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "published"
+            ]
+          }
+        ],
+        "sort_on": "effective",
+        "sort_order": "descending",
+        "sort_order_boolean": true
+      },
+      "styles": {
+        "backgroundColor": "transparent"
+      },
+      "variation": "grid"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "41d61d55-7a0b-4db5-8edc-792fa0dd6ef3",
+      "205b0bf6-2015-4426-8ae8-554cdbd96e26",
+      "ac6c4502-973a-4566-8ed4-21261dbf26c8"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-07-04T19:29:15+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Not\u00edcias da nossa institui\u00e7\u00e3o",
+  "effective": "2024-07-04T19:46:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {
+    "immediately_addable_types": [
+      "News Item"
+    ],
+    "locally_allowed_types": [
+      "Document",
+      "File",
+      "Image",
+      "News Item"
+    ]
+  },
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "noticias",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-07-10T15:48:21+00:00",
+  "nav_title": null,
+  "parent": {
+    "@id": "/",
+    "@type": "Plone Site",
+    "UID": "plone_site_root",
+    "description": "Intranet",
+    "title": "Intranet",
+    "type_title": "Plone Site"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Not\u00edcias",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_intranet_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-07-04T19:29:15+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-07-04T22:46:14+00:00"
+      }
+    ]
+  }
+}

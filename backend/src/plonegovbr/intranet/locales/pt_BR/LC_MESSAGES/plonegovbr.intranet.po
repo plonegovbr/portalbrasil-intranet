@@ -1,0 +1,300 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-07-10 20:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: pt_BR\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+msgid "- Workflow for Intranets. Public access to published content."
+msgstr ""
+
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "- Workflow for Intranets. Requires authentication."
+msgstr ""
+
+#: plonegovbr/intranet/content/servico.py:35
+msgid "Acesso"
+msgstr ""
+
+#: plonegovbr/intranet/content/servico.py:43
+msgid "Acesso restrito"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/registry/plone.app.querystring.interfaces.IQueryField.xml
+msgid "An item's workflow state (e.g.published)"
+msgstr ""
+
+#: plonegovbr/intranet/behaviors/endereco.py:41
+msgid "CEP"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Can only be seen and edited by the owner."
+msgstr ""
+
+#: plonegovbr/intranet/content/colaborador.py:19
+msgid "Cargo"
+msgstr ""
+
+#: plonegovbr/intranet/behaviors/endereco.py:32
+msgid "Cidade"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/types/Colaborador.xml
+msgid "Colaborador"
+msgstr ""
+
+#: plonegovbr/intranet/behaviors/endereco.py:27
+msgid "Complemento"
+msgstr ""
+
+#: plonegovbr/intranet/profiles.zcml:21
+msgid "Configuração de autenticação obrigatória."
+msgstr ""
+
+#: plonegovbr/intranet/behaviors/contato.py:13
+msgid "Contato"
+msgstr ""
+
+#: plonegovbr/intranet/profiles.zcml:30
+msgid "Conteúdo de exemplo para a Intranet"
+msgstr ""
+
+#: plonegovbr/intranet/content/colaborador.py:23
+msgid "Data de nascimento"
+msgstr ""
+
+#: plonegovbr/intranet/content/servico.py:27
+msgid "Detalhes"
+msgstr ""
+
+#: plonegovbr/intranet/behaviors/contato.py:20
+msgid "Email"
+msgstr ""
+
+#: plonegovbr/intranet/behaviors/endereco.py:12
+msgid "Endereço"
+msgstr ""
+
+#: plonegovbr/intranet/behaviors/endereco.py:37
+msgid "Estado"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "If you submitted the item by mistake or want to perform additional edits, this will take it back."
+msgstr ""
+
+#: plonegovbr/intranet/content/colaborador.py:20
+msgid "Informe o cargo do colaborador."
+msgstr ""
+
+#: plonegovbr/intranet/profiles.zcml:13
+msgid "Instalação da solução de Intranet utilizando Plone"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/registry/plone.app.querystring.interfaces.IQueryField.xml
+msgid "Intranet"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+msgid "Intranet Public Workflow"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Intranet Restricted Workflow"
+msgstr ""
+
+#: plonegovbr/intranet/content/servico.py:41
+msgid "Link"
+msgstr ""
+
+#: plonegovbr/intranet/behaviors/matricula.py:13
+msgid "Matrícula"
+msgstr ""
+
+#: plonegovbr/intranet/behaviors/matricula.py:14
+msgid "Matrícula deste colaborador"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Member retracts submission"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Member submits content for publication"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/registry/plone.app.querystring.interfaces.IQueryField.xml
+msgid "Metadata"
+msgstr ""
+
+#: plonegovbr/intranet/content/colaborador.py:14
+msgid "Nome completo"
+msgstr ""
+
+#: plonegovbr/intranet/content/colaborador.py:15
+msgid "Nome completo do colaborador."
+msgstr ""
+
+#: plonegovbr/intranet/content/servico.py:18
+msgid "Nome do sistema / serviço"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Pending review"
+msgstr ""
+
+#: plonegovbr/intranet/content/servico.py:23
+msgid "Pequena explicação sobre o sistema / serviço"
+msgstr ""
+
+#: plonegovbr/intranet/distributions.zcml:16
+#: plonegovbr/intranet/profiles.zcml:13
+msgid "PortalBrasil: Intranet"
+msgstr ""
+
+#: plonegovbr/intranet/profiles.zcml:30
+msgid "PortalBrasil: Intranet (Conteúdo de Exemplo)"
+msgstr ""
+
+#: plonegovbr/intranet/profiles.zcml:21
+msgid "PortalBrasil: Intranet (Restrito)"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Private"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Publish"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Published"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Publishing the item makes it visible to other users."
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Puts your item in a review queue, so it can be published on the site."
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Retract"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/registry/plone.app.querystring.interfaces.IQueryField.xml
+msgid "Review state"
+msgstr "Estado de revisão"
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Reviewer publishes content"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Reviewer sends content back for re-drafting"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Send back"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Sending the item back will return the item to the original author instead of publishing it. You should preferably include a reason for why it was not published."
+msgstr ""
+
+#: plonegovbr/intranet/content/servico.py:17
+#: plonegovbr/intranet/profiles/default/types/Servico.xml
+msgid "Serviço"
+msgstr ""
+
+#: plonegovbr/intranet/distributions.zcml:16
+msgid "Solução de Intranet desenvolvida com Plone."
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Submit for publication"
+msgstr ""
+
+#: plonegovbr/intranet/content/servico.py:22
+msgid "Sumário"
+msgstr ""
+
+#: plonegovbr/intranet/behaviors/contato.py:24
+msgid "Telefone"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/types/Colaborador.xml
+msgid "Um colaborador da Instituição"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/types/Servico.xml
+msgid "Um sistema ou serviço da Instituição"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/types/Area.xml
+msgid "Uma Área dentro da Instuição"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+msgid "Visible to anonymous users, editable by editors and reviewers."
+msgstr ""
+
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Visible to authenticated users, editable by editors and reviewers."
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/workflows/simple_intranet_workflow/definition.xml
+#: plonegovbr/intranet/profiles/restricted/workflows/simple_intranet_workflow/definition.xml
+msgid "Waiting to be reviewed, not editable by the owner."
+msgstr ""
+
+#. Default: "Filtro por Área."
+#: plonegovbr/intranet/profiles/default/registry/plone.app.querystring.interfaces.IQueryField.xml
+msgid "description_area"
+msgstr ""
+
+#. Default: "Área"
+#: plonegovbr/intranet/profiles/default/registry/plone.app.querystring.interfaces.IQueryField.xml
+msgid "label_area"
+msgstr ""
+
+#: plonegovbr/intranet/profiles/default/types/Area.xml
+msgid "Área"
+msgstr ""
+
+#: plonegovbr/intranet/content/servico.py:47
+msgid "Área responsável"
+msgstr ""
+
+#: plonegovbr/intranet/content/servico.py:48
+msgid "Área responsável por este serviço"
+msgstr ""

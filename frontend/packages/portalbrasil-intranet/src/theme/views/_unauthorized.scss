@@ -1,0 +1,27 @@
+/* Unauthorized view*/
+body.is-unauthorized {
+  #main {
+    .breadcrumbs {
+      display: none;
+    }
+
+    .unauthorized {
+      padding-top: $spacing-large;
+
+      h1 {
+        @include text-heading-h2();
+        text-align: center;
+      }
+
+      .description {
+        text-align: center;
+      }
+
+      .login {
+        display: flex;
+        justify-content: center;
+        margin: $spacing-large 0;
+      }
+    }
+  }
+}

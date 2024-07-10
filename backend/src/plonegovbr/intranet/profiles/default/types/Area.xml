@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        meta_type="Dexterity FTI"
+        name="Area"
+        i18n:domain="plonegovbr.intranet"
+>
+
+  <!-- Basic properties -->
+  <property name="title"
+            i18n:translate=""
+  >Área</property>
+  <property name="description"
+            i18n:translate=""
+  >Uma Área dentro da Instuição</property>
+
+  <property name="allow_discussion">True</property>
+  <property name="factory">Area</property>
+
+  <!-- Hierarchy control -->
+  <property name="filter_content_types">True</property>
+  <property name="allowed_content_types">
+    <element value="Area" />
+    <element value="Colaborador" />
+  </property>
+  <property name="global_allow">True</property>
+
+  <!-- Schema, class and security -->
+  <property name="add_permission">plonegovbr.intranet.area.add</property>
+  <property name="klass">plonegovbr.intranet.content.area.Area</property>
+  <property name="schema">plonegovbr.intranet.content.area.IArea</property>
+
+  <!-- Enabled behaviors -->
+  <property name="behaviors"
+            purge="true"
+  >
+    <element value="plone.basic" />
+    <element value="plonegovbr.intranet.contato" />
+    <element value="plonegovbr.intranet.endereco" />
+    <element value="plone.namefromtitle" />
+    <element value="plone.shortname" />
+    <element value="plone.excludefromnavigation" />
+    <element value="volto.blocks" />
+    <element value="volto.navtitle" />
+    <element value="plone.versioning" />
+  </property>
+
+</object>

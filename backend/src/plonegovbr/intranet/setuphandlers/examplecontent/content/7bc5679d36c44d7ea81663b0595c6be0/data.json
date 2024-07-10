@@ -1,0 +1,137 @@
+{
+  "@id": "/sobre/interatividade",
+  "@type": "Document",
+  "UID": "7bc5679d36c44d7ea81663b0595c6be0",
+  "allow_discussion": true,
+  "blocks": {
+    "4370e5e1-9a74-48b2-bf3c-c71ed5156977": {
+      "@type": "description"
+    },
+    "8ddf1c30-8e43-41ad-bb4f-7403c9f0cf0d": {
+      "@type": "image",
+      "align": "center",
+      "credit": {},
+      "description": "Adicione imagens aos seus conte\u00fados",
+      "image_field": "image",
+      "size": "l",
+      "title": "Uma imagem ",
+      "url": "../../resolveuid/8741d333db4c4736957db5742906aba6"
+    },
+    "9259a535-c32e-47d2-aaa9-0b57bac00cb6": {
+      "@type": "slate",
+      "plaintext": "Os colaboradores de sua institui\u00e7\u00e3o podem participar da Intranet comentando em P\u00e1ginas, Not\u00edcias, Eventos, e outros tipos de conte\u00fado.",
+      "styles": {},
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Os colaboradores de sua institui\u00e7\u00e3o podem participar da Intranet comentando em P\u00e1ginas, Not\u00edcias, Eventos, e outros tipos de conte\u00fado."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "92aac05a-ffe3-436d-bbdd-2e643bfc6834": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "92aac05a-ffe3-436d-bbdd-2e643bfc6834",
+      "4370e5e1-9a74-48b2-bf3c-c71ed5156977",
+      "9259a535-c32e-47d2-aaa9-0b57bac00cb6",
+      "8ddf1c30-8e43-41ad-bb4f-7403c9f0cf0d"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-07-06T22:13:01+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Usu\u00e1rios podem favoritar suas p\u00e1ginas e conte\u00fados mais acessados, e tamb\u00e9m podem comentar e deixar suas opini\u00f5es.",
+  "effective": "2024-07-06T19:13:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [
+    {
+      "@id": "/sobre/interatividade/@comments/1720304006825152",
+      "@parent": null,
+      "@type": "Discussion Item",
+      "author_image": null,
+      "author_name": "admin",
+      "author_username": "admin",
+      "can_reply": true,
+      "comment_id": "1720304006825152",
+      "creation_date": "2024-07-06T22:13:26+00:00",
+      "in_reply_to": null,
+      "is_deletable": true,
+      "is_editable": false,
+      "modification_date": "2024-07-06T22:13:26+00:00",
+      "text": {
+        "data": "Gostei bastante da imagem utilizada nessa p\u00e1gina",
+        "mime-type": "text/plain"
+      },
+      "user_notification": null
+    }
+  ],
+  "exportimport.versions": {},
+  "id": "interatividade",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-07-07T13:48:43+00:00",
+  "nav_title": null,
+  "parent": {
+    "@id": "/sobre",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "e65e86c1d5d14560a6aeffe2e90d747b",
+    "description": "Conhe\u00e7a a nova Intranet da nossa institui\u00e7\u00e3o",
+    "effective": "2024-07-06T21:57:00+00:00",
+    "id": "sobre",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Sobre",
+    "type_title": "Page"
+  },
+  "preview_caption": null,
+  "preview_image": {
+    "blob_path": "7bc5679d36c44d7ea81663b0595c6be0/preview_image/volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.jpg",
+    "content-type": "image/jpeg",
+    "filename": "volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.jpg",
+    "height": 3648,
+    "size": 2702306,
+    "width": 5472
+  },
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Interatividade",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_intranet_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-07-06T22:13:01+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-07-06T22:13:49+00:00"
+      }
+    ]
+  }
+}

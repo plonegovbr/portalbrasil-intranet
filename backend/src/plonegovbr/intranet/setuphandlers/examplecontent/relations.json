@@ -1,0 +1,17 @@
+[
+  {
+    "from_attribute": "gestor",
+    "from_uuid": "b31a223c7b0b4146b8b17b640b9d39e1",
+    "to_uuid": "9b37dfbe71ba477791e511975741e6b0"
+  },
+  {
+    "from_attribute": "area",
+    "from_uuid": "616403f8459349feab36daba645b95d9",
+    "to_uuid": "b31a223c7b0b4146b8b17b640b9d39e1"
+  },
+  {
+    "from_attribute": "gestor",
+    "from_uuid": "c50064410cc94ebaa3d744b3852414ed",
+    "to_uuid": "fe1c6ad17162484680a1143ac4ad47f6"
+  }
+]

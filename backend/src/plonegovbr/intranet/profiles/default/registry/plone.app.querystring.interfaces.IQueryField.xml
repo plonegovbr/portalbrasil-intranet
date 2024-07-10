@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registry xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+          i18n:domain="plonegovbr.intranet"
+>
+
+  <!-- Opção de busca -->
+  <!-- Área -->
+  <records interface="plone.app.querystring.interfaces.IQueryField"
+           prefix="plone.app.querystring.field.area"
+  >
+    <value key="title"
+           i18n:translate="label_area"
+    >Área</value>
+    <value key="description"
+           i18n:translate="description_area"
+    >Filtro por Área.</value>
+    <value key="enabled">True</value>
+    <value key="sortable">False</value>
+    <value key="group"
+           i18n:translate=""
+    >Intranet</value>
+    <value key="operations">
+      <element>plone.app.querystring.operation.selection.any</element>
+    </value>
+    <value key="vocabulary">plonegovbr.intranet.voc.areas</value>
+  </records>
+  <!-- Estado de Workflow -->
+  <records interface="plone.app.querystring.interfaces.IQueryField"
+           prefix="plone.app.querystring.field.review_state"
+  >
+    <value key="title"
+           i18n:translate=""
+    >Review state</value>
+    <value key="description"
+           i18n:translate=""
+    >An item's workflow state (e.g.published)</value>
+    <value key="enabled">True</value>
+    <value key="sortable">True</value>
+    <value key="operations">
+      <element>plone.app.querystring.operation.selection.any</element>
+      <element>plone.app.querystring.operation.selection.none</element>
+    </value>
+    <value key="vocabulary">plonegovbr.intranet.voc.wf_states</value>
+    <value key="group"
+           i18n:translate=""
+    >Metadata</value>
+  </records>
+</registry>

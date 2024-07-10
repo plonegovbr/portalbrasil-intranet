@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        meta_type="Dexterity FTI"
+        name="Servico"
+        i18n:domain="plonegovbr.intranet"
+>
+
+  <!-- Basic properties -->
+  <property name="title"
+            i18n:translate=""
+  >Serviço</property>
+  <property name="description"
+            i18n:translate=""
+  >Um sistema ou serviço da Instituição</property>
+
+  <property name="allow_discussion">False</property>
+  <property name="factory">Servico</property>
+
+  <!-- Hierarchy control -->
+  <property name="filter_content_types">True</property>
+  <property name="allowed_content_types">
+    <element value="File" />
+  </property>
+  <property name="global_allow">True</property>
+
+  <!-- Schema, class and security -->
+  <property name="add_permission">plonegovbr.intranet.servico.add</property>
+  <property name="klass">plonegovbr.intranet.content.servico.Servico</property>
+  <property name="schema">plonegovbr.intranet.content.servico.IServico</property>
+
+  <!-- Enabled behaviors -->
+  <property name="behaviors"
+            purge="true"
+  >
+    <element value="plone.basic" />
+    <element value="plone.namefromtitle" />
+    <element value="volto.preview_image" />
+    <element value="volto.navtitle" />
+    <element value="plone.excludefromnavigation" />
+    <element value="plone.versioning" />
+  </property>
+</object>

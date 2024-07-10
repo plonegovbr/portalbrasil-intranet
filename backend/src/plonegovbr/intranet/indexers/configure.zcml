@@ -1,0 +1,12 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+  <!-- Indexers/Metadata -->
+  <adapter
+      factory=".area.area_indexer"
+      name="area"
+      />
+  <adapter
+      factory=".area.area_servico_indexer"
+      name="area"
+      />
+</configure>

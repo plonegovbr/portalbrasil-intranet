@@ -1,0 +1,34 @@
+.servico-view {
+  .servico-header {
+    display: flex;
+    align-items: center;
+    .servico-title {
+      min-width: 80%;
+      h1 {
+        @include add(size, 5xl);
+        @include add(height, 5xl);
+        @include add(weight, bold);
+        margin-top: $spacing-small;
+        margin-bottom: $spacing-small;
+      }
+    }
+  }
+  .servico-link {
+    margin-top: $spacing-medium;
+    margin-bottom: $spacing-small;
+    a {
+      padding: $spacing-xsmall $spacing-small;
+      border: 1px solid;
+      border-radius: 0;
+      background-color: var(--color-primary-container);
+      color: var(--color-on-primary-container);
+      text-align: center;
+      @include add(size, small);
+      @include add(weight, bold);
+      @include add(height, small);
+      &::after {
+        content: unset !important;
+      }
+    }
+  }
+}

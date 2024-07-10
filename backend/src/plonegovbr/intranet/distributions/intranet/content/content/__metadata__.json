@@ -1,0 +1,191 @@
+{
+  "__version__": "1.0.0",
+  "_blob_files_": [],
+  "_data_files_": [
+    "plone_site_root/data.json",
+    "0f37fe34245f439ba78901e36f6da9dc/data.json",
+    "abcd08c1843b4540b90cb73b9e9fc050/data.json",
+    "26e5fc286fce4c2e9613411cc0f0663f/data.json",
+    "42bb0222abfe4356949de633f5cc25e6/data.json",
+    "87b599b4dd5a419da58c59632bace85c/data.json",
+    "e65e86c1d5d14560a6aeffe2e90d747b/data.json"
+  ],
+  "default_page": {},
+  "local_permissions": {
+    "0f37fe34245f439ba78901e36f6da9dc": {
+      "plonegovbr.intranet: Add Area": {
+        "acquire": false,
+        "roles": [
+          "Contributor",
+          "Editor",
+          "Manager",
+          "Reviewer"
+        ]
+      },
+      "plonegovbr.intranet: Add Colaborador": {
+        "acquire": false,
+        "roles": [
+          "Contributor",
+          "Editor",
+          "Manager",
+          "Reviewer"
+        ]
+      }
+    },
+    "26e5fc286fce4c2e9613411cc0f0663f": {},
+    "42bb0222abfe4356949de633f5cc25e6": {},
+    "87b599b4dd5a419da58c59632bace85c": {
+      "plonegovbr.intranet: Add Servico": {
+        "acquire": false,
+        "roles": [
+          "Contributor",
+          "Editor",
+          "Manager",
+          "Reviewer",
+          "Site Administrator"
+        ]
+      }
+    },
+    "abcd08c1843b4540b90cb73b9e9fc050": {},
+    "e65e86c1d5d14560a6aeffe2e90d747b": {},
+    "plone_site_root": {
+      "Add portal member": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator",
+          "Owner"
+        ]
+      },
+      "Content rules: Manage rules": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Delete own comments": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator",
+          "Reviewer",
+          "Owner"
+        ]
+      },
+      "Reply to item": {
+        "acquire": false,
+        "roles": [
+          "Authenticated"
+        ]
+      },
+      "Set own password": {
+        "acquire": false,
+        "roles": [
+          "Authenticated",
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Set own properties": {
+        "acquire": false,
+        "roles": [
+          "Authenticated",
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Show Toolbar": {
+        "acquire": false,
+        "roles": [
+          "Authenticated"
+        ]
+      },
+      "plone.resource: Export ZIP file": {
+        "acquire": false,
+        "roles": [
+          "Manager"
+        ]
+      },
+      "plone.resourceeditor: Manage Sources": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "plonegovbr.intranet: Add Area": {
+        "acquire": false,
+        "roles": []
+      },
+      "plonegovbr.intranet: Add Colaborador": {
+        "acquire": false,
+        "roles": []
+      },
+      "plonegovbr.intranet: Add Servico": {
+        "acquire": false,
+        "roles": []
+      }
+    }
+  },
+  "local_roles": {
+    "0f37fe34245f439ba78901e36f6da9dc": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "26e5fc286fce4c2e9613411cc0f0663f": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "42bb0222abfe4356949de633f5cc25e6": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "87b599b4dd5a419da58c59632bace85c": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "abcd08c1843b4540b90cb73b9e9fc050": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "e65e86c1d5d14560a6aeffe2e90d747b": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "plone_site_root": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    }
+  },
+  "ordering": {
+    "0f37fe34245f439ba78901e36f6da9dc": 44,
+    "26e5fc286fce4c2e9613411cc0f0663f": 42,
+    "42bb0222abfe4356949de633f5cc25e6": 45,
+    "87b599b4dd5a419da58c59632bace85c": 47,
+    "abcd08c1843b4540b90cb73b9e9fc050": 46,
+    "e65e86c1d5d14560a6aeffe2e90d747b": 43
+  },
+  "relations": []
+}

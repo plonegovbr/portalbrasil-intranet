@@ -1,0 +1,9 @@
+{
+    "site_id": "Plone",
+    "title": "Intranet",
+    "description": "Intranet",
+    "default_language": "pt-br",
+    "portal_timezone": "America/Sao_Paulo",
+    "setup_content": true,
+    "demo_content": true
+}

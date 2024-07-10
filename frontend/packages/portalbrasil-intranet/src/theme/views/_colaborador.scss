@@ -1,0 +1,24 @@
+.colaborador-view {
+  .colaborador-header {
+    display: flex;
+    align-items: center;
+    .dados {
+      min-width: 80%;
+      h1 {
+        @include add(size, 5xl);
+        @include add(height, 5xl);
+        @include add(weight, bold);
+        margin-top: $spacing-small;
+        margin-bottom: $spacing-small;
+      }
+    }
+    .portrait {
+      img.portrait.item {
+        max-height: 128px;
+        margin-top: $spacing-small;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "@id": "/servicos/ferias",
+  "@type": "Servico",
+  "UID": "616403f8459349feab36daba645b95d9",
+  "allow_discussion": false,
+  "authentication": null,
+  "changeNote": "",
+  "created": "2024-07-07T15:10:15+00:00",
+  "description": "Sistema de requisi\u00e7\u00e3o de f\u00e9rias",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "href": "https://plone.org.br/",
+  "id": "ferias",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2024-07-10T14:40:39+00:00",
+  "nav_title": null,
+  "parent": {
+    "@id": "/servicos",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "87b599b4dd5a419da58c59632bace85c",
+    "description": "Servi\u00e7os e sistema da institui\u00e7\u00e3o",
+    "effective": "2024-07-07T15:06:00+00:00",
+    "id": "servicos",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Servi\u00e7os",
+    "type_title": "Page"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "review_state": "active",
+  "text": {
+    "content-type": "text/html",
+    "data": "<p>Lembre-se sempre de <strong>negociar</strong> com a sua lideran\u00e7a antes de requisitar as suas f\u00e9rias</p><p></p>",
+    "encoding": "utf8"
+  },
+  "title": "F\u00e9rias",
+  "type_title": "Servi\u00e7o",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "two_state_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "active",
+        "time": "2024-05-16T20:18:37+00:00"
+      },
+      {
+        "action": "activate",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "active",
+        "time": "2024-05-17T09:39:07+00:00"
+      }
+    ]
+  }
+}

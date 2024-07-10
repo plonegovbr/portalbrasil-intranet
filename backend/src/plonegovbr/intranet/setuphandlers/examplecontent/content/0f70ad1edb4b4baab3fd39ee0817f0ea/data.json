@@ -1,0 +1,303 @@
+{
+  "@id": "/eventos/world-plone-day-2024",
+  "@type": "Event",
+  "UID": "0f70ad1edb4b4baab3fd39ee0817f0ea",
+  "allow_discussion": false,
+  "attendees": [
+    "Comunidade Plone"
+  ],
+  "blocks": {
+    "21c4705b-3e76-4a6a-a1c2-110eaf293d60": {
+      "@type": "slate"
+    },
+    "30d7612b-a281-4940-a0ec-3ec8e8901e98": {
+      "@type": "eventMetadata",
+      "fixed": true,
+      "required": true
+    },
+    "81afc282-3b33-45d6-a416-1d677cab445f": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "81afc282-3b33-45d6-a416-1d677cab445f",
+      "30d7612b-a281-4940-a0ec-3ec8e8901e98",
+      "21c4705b-3e76-4a6a-a1c2-110eaf293d60"
+    ]
+  },
+  "changeActor": "admin",
+  "changeNote": null,
+  "contact_email": null,
+  "contact_name": null,
+  "contact_phone": null,
+  "contributors": [],
+  "created": "2024-07-06T22:27:55+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Edi\u00e7\u00e3o 2024 do World Plone Day",
+  "effective": "2024-07-06T19:28:00",
+  "end": "2024-04-18T02:59:00+00:00",
+  "event_url": "https://plone.org/wpd",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {
+    "0": {
+      "@id": "/eventos/world-plone-day-2024",
+      "@type": "Event",
+      "UID": "2d1c1132e6c647209db1a8de8a1f7fc1",
+      "allow_discussion": false,
+      "attendees": [],
+      "blocks": {},
+      "blocks_layout": {
+        "items": []
+      },
+      "changeNote": "",
+      "contact_email": null,
+      "contact_name": null,
+      "contact_phone": null,
+      "contributors": [],
+      "created": "2024-07-10T14:30:34+00:00",
+      "creators": [
+        "admin"
+      ],
+      "description": "",
+      "effective": null,
+      "end": "2024-07-10T15:00:00+00:00",
+      "event_url": null,
+      "exclude_from_nav": false,
+      "expires": null,
+      "id": "world-plone-day-2024",
+      "is_folderish": true,
+      "language": "",
+      "layout": "event_view",
+      "location": null,
+      "lock": {
+        "locked": false,
+        "stealable": true
+      },
+      "modified": "2024-07-10T14:30:34+00:00",
+      "open_end": false,
+      "parent": {
+        "@id": "/eventos",
+        "@type": "Document",
+        "Subject": [],
+        "UID": "abcd08c1843b4540b90cb73b9e9fc050",
+        "description": "Eventos internos ou externos. com participa\u00e7\u00e3o de nossa institui\u00e7\u00e3o",
+        "effective": "2024-07-06T22:28:00+00:00",
+        "id": "eventos",
+        "image_field": null,
+        "image_scales": {
+          "preview_image": [
+            {
+              "content-type": "image/jpeg",
+              "download": "@@images/preview_image-4501-5f81a3b1c8aec3d2fe7ce11d1ffceef5.jpeg",
+              "filename": "towfiqu-barbhuiya-bwOAixLG0uc-unsplash.jpg",
+              "height": 3003,
+              "scales": {
+                "great": {
+                  "download": "@@images/preview_image-1200-09f26921ba7fdd7d989f14cef316b63d.jpeg",
+                  "height": 800,
+                  "width": 1200
+                },
+                "huge": {
+                  "download": "@@images/preview_image-1600-0ff56793ac9e62dff5c5251b7a7437cd.jpeg",
+                  "height": 1067,
+                  "width": 1600
+                },
+                "icon": {
+                  "download": "@@images/preview_image-32-140bfc42138c1040fc688860e2c0131f.jpeg",
+                  "height": 21,
+                  "width": 32
+                },
+                "large": {
+                  "download": "@@images/preview_image-800-9da462ac3b1e0209d5b50907eabe7b88.jpeg",
+                  "height": 533,
+                  "width": 800
+                },
+                "larger": {
+                  "download": "@@images/preview_image-1000-e1a02dccc3b5578fb394a3af60c63ca2.jpeg",
+                  "height": 667,
+                  "width": 1000
+                },
+                "mini": {
+                  "download": "@@images/preview_image-200-e40158887d78b43f8bf985303becb16d.jpeg",
+                  "height": 133,
+                  "width": 200
+                },
+                "preview": {
+                  "download": "@@images/preview_image-400-0c28aeefc613d170f171ab1174616880.jpeg",
+                  "height": 266,
+                  "width": 400
+                },
+                "teaser": {
+                  "download": "@@images/preview_image-600-55a63a888468513b25c17372b19dc925.jpeg",
+                  "height": 400,
+                  "width": 600
+                },
+                "thumb": {
+                  "download": "@@images/preview_image-128-8f85d31fa43ea5d92ee893f56e045b3a.jpeg",
+                  "height": 85,
+                  "width": 128
+                },
+                "tile": {
+                  "download": "@@images/preview_image-64-5919ae36dec6a22fd3fcea4f63bc50ea.jpeg",
+                  "height": 42,
+                  "width": 64
+                }
+              },
+              "size": 764938,
+              "width": 4501
+            }
+          ]
+        },
+        "review_state": "published",
+        "title": "Eventos",
+        "type_title": "Page"
+      },
+      "preview_caption": null,
+      "preview_image": null,
+      "recurrence": null,
+      "relatedItems": [],
+      "review_state": "published",
+      "rights": "",
+      "start": "2024-07-10T14:00:00+00:00",
+      "subjects": [],
+      "sync_uid": null,
+      "title": "",
+      "type_title": "Event",
+      "version": 0,
+      "versioning_enabled": true,
+      "whole_day": false
+    }
+  },
+  "id": "world-plone-day-2024",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "event_view",
+  "location": "Online",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-07-06T22:28:08+00:00",
+  "open_end": false,
+  "parent": {
+    "@id": "/eventos",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "abcd08c1843b4540b90cb73b9e9fc050",
+    "description": "Eventos internos ou externos. com participa\u00e7\u00e3o de nossa institui\u00e7\u00e3o",
+    "effective": "2024-07-06T22:28:00+00:00",
+    "id": "eventos",
+    "image_field": null,
+    "image_scales": {
+      "preview_image": [
+        {
+          "content-type": "image/jpeg",
+          "download": "@@images/preview_image-4501-5f81a3b1c8aec3d2fe7ce11d1ffceef5.jpeg",
+          "filename": "towfiqu-barbhuiya-bwOAixLG0uc-unsplash.jpg",
+          "height": 3003,
+          "scales": {
+            "great": {
+              "download": "@@images/preview_image-1200-09f26921ba7fdd7d989f14cef316b63d.jpeg",
+              "height": 800,
+              "width": 1200
+            },
+            "huge": {
+              "download": "@@images/preview_image-1600-0ff56793ac9e62dff5c5251b7a7437cd.jpeg",
+              "height": 1067,
+              "width": 1600
+            },
+            "icon": {
+              "download": "@@images/preview_image-32-140bfc42138c1040fc688860e2c0131f.jpeg",
+              "height": 21,
+              "width": 32
+            },
+            "large": {
+              "download": "@@images/preview_image-800-9da462ac3b1e0209d5b50907eabe7b88.jpeg",
+              "height": 533,
+              "width": 800
+            },
+            "larger": {
+              "download": "@@images/preview_image-1000-e1a02dccc3b5578fb394a3af60c63ca2.jpeg",
+              "height": 667,
+              "width": 1000
+            },
+            "mini": {
+              "download": "@@images/preview_image-200-e40158887d78b43f8bf985303becb16d.jpeg",
+              "height": 133,
+              "width": 200
+            },
+            "preview": {
+              "download": "@@images/preview_image-400-0c28aeefc613d170f171ab1174616880.jpeg",
+              "height": 266,
+              "width": 400
+            },
+            "teaser": {
+              "download": "@@images/preview_image-600-55a63a888468513b25c17372b19dc925.jpeg",
+              "height": 400,
+              "width": 600
+            },
+            "thumb": {
+              "download": "@@images/preview_image-128-8f85d31fa43ea5d92ee893f56e045b3a.jpeg",
+              "height": 85,
+              "width": 128
+            },
+            "tile": {
+              "download": "@@images/preview_image-64-5919ae36dec6a22fd3fcea4f63bc50ea.jpeg",
+              "height": 42,
+              "width": 64
+            }
+          },
+          "size": 764938,
+          "width": 4501
+        }
+      ]
+    },
+    "review_state": "published",
+    "title": "Eventos",
+    "type_title": "Page"
+  },
+  "preview_caption": null,
+  "preview_image": {
+    "blob_path": "0f70ad1edb4b4baab3fd39ee0817f0ea/preview_image/WPD 17th April 2024 1920x1080 (PT) .png",
+    "content-type": "image/png",
+    "filename": "WPD 17th April 2024 1920x1080 (PT) .png",
+    "height": 1080,
+    "size": 1139891,
+    "width": 1920
+  },
+  "recurrence": null,
+  "review_state": "published",
+  "rights": "",
+  "start": "2024-04-17T03:00:00+00:00",
+  "subjects": [],
+  "sync_uid": null,
+  "title": "World Plone Day 2024",
+  "type_title": "Event",
+  "version": "current",
+  "versioning_enabled": true,
+  "whole_day": true,
+  "workflow_history": {
+    "simple_intranet_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-07-06T22:27:55+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-07-06T22:28:08+00:00"
+      }
+    ]
+  }
+}

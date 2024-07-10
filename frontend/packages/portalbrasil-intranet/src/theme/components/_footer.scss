@@ -1,0 +1,11 @@
+#footer {
+  .container.footer {
+    background-color: var(--color-surface-container-high);
+    .logo {
+      margin: $spacing-xsmall;
+      img {
+        width: 300px;
+      }
+    }
+  }
+}

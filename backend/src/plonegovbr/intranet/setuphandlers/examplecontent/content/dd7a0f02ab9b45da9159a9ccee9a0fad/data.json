@@ -1,0 +1,53 @@
+{
+  "@id": "/imagens/plonegov-br",
+  "@type": "Image",
+  "UID": "dd7a0f02ab9b45da9159a9ccee9a0fad",
+  "allow_discussion": false,
+  "contributors": [],
+  "created": "2024-07-07T01:11:02+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "plonegov-br",
+  "image": {
+    "blob_path": "dd7a0f02ab9b45da9159a9ccee9a0fad/image/PloneGov-BR",
+    "content-type": "image/png",
+    "filename": "PloneGov-BR",
+    "height": 1080,
+    "size": 57394,
+    "width": 1980
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {},
+  "modified": "2024-07-07T01:11:02+00:00",
+  "parent": {
+    "@id": "/imagens",
+    "@type": "Document",
+    "Subject": [],
+    "UID": "26e5fc286fce4c2e9613411cc0f0663f",
+    "description": "Imagens utilizadas na Intranet",
+    "effective": "2024-07-04T19:37:00+00:00",
+    "id": "imagens",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Imagens",
+    "type_title": "Page"
+  },
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "PloneGov-BR",
+  "type_title": "Image",
+  "version": "current",
+  "workflow_history": {}
+}

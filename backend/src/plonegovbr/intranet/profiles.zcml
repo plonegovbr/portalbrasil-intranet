@@ -1,0 +1,41 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="plonegovbr.intranet"
+    >
+
+  <genericsetup:registerProfile
+      name="default"
+      title="PortalBrasil: Intranet"
+      description="Instalação da solução de Intranet utilizando Plone"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/default"
+      />
+
+  <genericsetup:registerProfile
+      name="restricted"
+      title="PortalBrasil: Intranet (Restrito)"
+      description="Configuração de autenticação obrigatória."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/restricted"
+      />
+
+  <genericsetup:registerProfile
+      name="demo"
+      title="PortalBrasil: Intranet (Conteúdo de Exemplo)"
+      description="Conteúdo de exemplo para a Intranet"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/demo"
+      pre_handler=".setuphandlers.demo.create_example_content"
+      />
+
+  <!-- Hide Uninstall Profile-->
+  <utility
+      factory=".setuphandlers.HiddenProfiles"
+      name="plonegovbr.intranet"
+      />
+
+
+  <include package=".upgrades" />
+
+</configure>

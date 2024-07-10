@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        meta_type="Dexterity FTI"
+        name="Colaborador"
+        i18n:domain="plonegovbr.intranet"
+>
+
+  <!-- Basic properties -->
+  <property name="title"
+            i18n:translate=""
+  >Colaborador</property>
+  <property name="description"
+            i18n:translate=""
+  >Um colaborador da Instituição</property>
+
+  <property name="allow_discussion">True</property>
+  <property name="factory">Colaborador</property>
+
+  <!-- Hierarchy control -->
+  <property name="filter_content_types">True</property>
+  <property name="allowed_content_types" />
+  <property name="global_allow">False</property>
+
+  <!-- Schema, class and security -->
+  <property name="add_permission">plonegovbr.intranet.colaborador.add</property>
+  <property name="klass">plonegovbr.intranet.content.colaborador.Colaborador</property>
+  <property name="schema">plonegovbr.intranet.content.colaborador.IColaborador</property>
+
+  <!-- Enabled behaviors -->
+  <property name="behaviors"
+            purge="true"
+  >
+    <element value="plonegovbr.intranet.matricula" />
+    <element value="plonegovbr.intranet.contato" />
+    <element value="plone.namefromtitle" />
+    <element value="plone.leadimage" />
+    <element value="plone.excludefromnavigation" />
+    <element value="plone.versioning" />
+  </property>
+</object>

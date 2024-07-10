@@ -1,0 +1,22 @@
+<configure xmlns="http://namespaces.zope.org/zope">
+
+
+  <utility
+      name="plonegovbr.intranet.voc.wf_states"
+      component=".workflow.wf_states_vocabulary"
+      />
+
+  <utility
+      name="plonegovbr.intranet.voc.areas"
+      component=".areas.areas_vocabulary"
+      />
+  <utility
+      name="plonegovbr.intranet.voc.gestores"
+      component=".gestores.gestores_vocabulary"
+      />
+
+  <utility
+      name="plonegovbr.intranet.voc.cat_areas"
+      component=".areas.cat_areas_vocabulary"
+      />
+</configure>
