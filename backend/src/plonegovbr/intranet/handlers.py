@@ -7,6 +7,7 @@ from plonegovbr.intranet import logger
 from plonegovbr.intranet.utils.constrains import update_constrains
 from Products.CMFPlone.Portal import PloneSite
 from Products.CMFPlone.WorkflowTool import WorkflowTool
+from Products.GenericSetup.tool import SetupTool
 
 
 def pre_handler(answers: dict) -> dict:
@@ -21,9 +22,6 @@ def handler(distribution: Distribution, site: PloneSite, answers: dict) -> Plone
     workflow = answers.get("workflow", "restricted")
     if workflow == "restricted":
         profiles["base"].append("plonegovbr.intranet:restricted")
-    demo = answers.get("demo_content", False)
-    if demo:
-        profiles["base"].append("plonegovbr.intranet:demo")
     distribution._profiles = profiles
     site = default_handler(distribution, site, answers)
     distribution._profiles = default_profiles
@@ -36,6 +34,11 @@ def post_handler(
     """Run after site creation."""
     name = distribution.name
     logger.info(f"{site.id}: Running {name} post_handler")
+    # Setup demo content
+    demo = answers.get("demo_content", False)
+    if demo:
+        setup_tool: SetupTool = api.portal.get_tool("portal_setup")
+        setup_tool.runAllImportStepsFromProfile("plonegovbr.intranet:demo")
     # Update security
     wf_tool: WorkflowTool = api.portal.get_tool("portal_workflow")
     wf_tool.updateRoleMappings()
