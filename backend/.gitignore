@@ -37,4 +37,5 @@ var/
 /venv/
 .installed.txt
 .lock
+requirements.txt
 requirements.lock

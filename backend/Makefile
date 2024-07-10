@@ -68,12 +68,11 @@ config: instance/etc/zope.ini
 
 constraints-mxdev.txt: ## Generate constraints file
 	@echo "$(GREEN)==> Generate constraints file$(RESET)"
+	@echo '-c https://dist.plone.org/release/$(PLONE_VERSION)/constraints.txt' > requirements.txt
 	@pipx run mxdev -c mx.ini
-
 
 .PHONY: build-dev
 build-dev: constraints-mxdev.txt config $(BIN_FOLDER)/hatch ## Install Plone packages
-	@pipx run mxdev -c mx.ini
 
 .PHONY: install
 install: build-dev ## Install Plone
