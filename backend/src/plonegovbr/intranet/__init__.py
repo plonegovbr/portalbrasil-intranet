@@ -1,6 +1,6 @@
 """Init and utils."""
 
-from .about import __version__
+from .about import __version__  # noQA: F401
 from zope.i18nmessageid import MessageFactory
 
 import logging
