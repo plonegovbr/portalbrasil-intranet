@@ -1,5 +1,6 @@
 """Init and utils."""
 
+from .about import __version__
 from zope.i18nmessageid import MessageFactory
 
 import logging

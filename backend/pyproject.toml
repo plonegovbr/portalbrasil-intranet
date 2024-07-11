@@ -158,6 +158,8 @@ testpaths = ["tests"]
 profile = "plone"
 
 [tool.towncrier]
+package = "plonegovbr.intranet"
+package_dir = "src"
 directory = "news/"
 filename = "CHANGES.md"
 start_string = "<!-- towncrier release notes start -->\n"
