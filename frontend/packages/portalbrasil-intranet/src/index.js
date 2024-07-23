@@ -1,6 +1,9 @@
 // Bookmarks
 import Bookmarking from './components/Bookmarking/Bookmarking';
 
+// VLibras
+import Libras from '@plonegovbr/volto-vlibras/components/Libras';
+
 // Blocks
 /// Listing block variations
 import ProfilesTemplate from './components/Blocks/Listing/ProfilesGridTemplate';
@@ -138,12 +141,16 @@ const applyConfig = (config) => {
     'News Item': ['title', 'description', 'leadimage'],
   };
 
-  // Bookmarks
+  // Habilita Bookmarks e VLibras
   config.settings.appExtras = [
     ...config.settings.appExtras,
     {
       match: '/',
       component: Bookmarking,
+    },
+    {
+      match: '',
+      component: Libras,
     },
   ];
 
