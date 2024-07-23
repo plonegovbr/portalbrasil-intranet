@@ -7,5 +7,46 @@
         width: 300px;
       }
     }
+    .navigation {
+      height: unset;
+      .navigation-grid {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: left;
+        h3.section {
+          > a {
+            @include add(weight, bold);
+            color: var(--color-primary);
+            text-transform: uppercase;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+        .navigation-item {
+          -webkit-flex: 1; /* Safari */
+          flex: 1;
+          padding-left: $spacing-xsmall;
+          border-left: 2px solid var(--color-primary);
+        }
+        .item-wrapper {
+          display: block;
+          text-align: left;
+          > li {
+            padding: 0px 7px 0px 0px;
+            border: unset;
+            > a {
+              @include add(weight, light);
+              color: var(--color-primary);
+              &:hover {
+                @include add(weight, light);
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }

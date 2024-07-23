@@ -44,6 +44,10 @@ const applyConfig = (config) => {
         enable_fonte: true,
         enable_link: false,
       },
+      footer: {
+        display_sitemap: false,
+        display_toollogo: true,
+      },
     },
     image_crop_aspect_ratios: [
       {

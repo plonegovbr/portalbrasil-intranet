@@ -6,6 +6,7 @@ import { useSelector, shallowEqual } from 'react-redux';
 import { UniversalLink } from '@plone/volto/components';
 import { Container } from '@plone/components';
 import { flattenToAppURL, addAppURL } from '@plone/volto/helpers';
+import Sitemap from './Sitemap';
 import ToolLogo from '../ToolLogo/ToolLogo';
 import config from '@plone/volto/registry';
 
@@ -15,8 +16,9 @@ import config from '@plone/volto/registry';
  * @param {Object} intl Intl object
  * @returns {string} Markup of the component
  */
-const Footer = ({ intl }) => {
+const Footer = ({ pathname, intl }) => {
   const { settings } = config;
+  const { display_sitemap, display_toollogo } = settings.intranet?.footer;
   const { lang, siteActions = [] } = useSelector(
     (state) => ({
       lang: state.intl.locale,
@@ -52,9 +54,16 @@ const Footer = ({ intl }) => {
               ))
             : null}
         </ul>
-        <div className="logo">
-          <ToolLogo />
-        </div>
+        {display_sitemap && (
+          <Container narrow>
+            <Sitemap pathname={pathname} />
+          </Container>
+        )}
+        {display_toollogo && (
+          <Container className="logo">
+            <ToolLogo />
+          </Container>
+        )}
         <a className="item powered-by" href="https://plone.org">
           <FormattedMessage
             id="Powered by Portal Brasil: Intranet, Plone & Python"
