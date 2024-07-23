@@ -8,7 +8,7 @@ import { UniversalLink } from '@plone/volto/components';
 import { TabPane, Tab } from 'semantic-ui-react';
 import { TableRow, TableCell, TableBody, Table } from 'semantic-ui-react';
 
-const DadosPessoais = ({ area_info, cpf, id }) => {
+const DadosPessoais = ({ area_info, aniversario, id }) => {
   return (
     <Table className={'details'}>
       <TableBody>
@@ -22,6 +22,12 @@ const DadosPessoais = ({ area_info, cpf, id }) => {
             <TableCell className={'value'}>
               <UniversalLink item={area_info}>{area_info.title}</UniversalLink>
             </TableCell>
+          </TableRow>
+        )}
+        {aniversario && (
+          <TableRow>
+            <TableCell className={'label'}>Aniversário</TableCell>
+            <TableCell className={'value'}>{aniversario}</TableCell>
           </TableRow>
         )}
       </TableBody>
@@ -47,14 +53,27 @@ const DadosContato = ({ email, telefone }) => {
 
 const ColaboradorView = (props) => {
   const { content } = props;
-  const { title, area_info, id, email, telefone, description, image } = content;
+  const {
+    title,
+    area_info,
+    id,
+    email,
+    aniversario,
+    telefone,
+    description,
+    image,
+  } = content;
   const img = image?.scales?.thumb;
   const panes = [
     {
       menuItem: 'Informações',
       render: () => (
         <TabPane>
-          <DadosPessoais area_info={area_info} id={id} />
+          <DadosPessoais
+            area_info={area_info}
+            id={id}
+            aniversario={aniversario}
+          />
         </TabPane>
       ),
     },
