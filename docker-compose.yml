@@ -3,7 +3,7 @@ name: portalbrasil-intranet
 
 services:
   traefik:
-    image: traefik:v2.10
+    image: traefik:v2.11
 
     ports:
       - 80:80
@@ -31,8 +31,9 @@ services:
       - --accesslog
       - --log
       - --api
+
   frontend:
-    image: ghcr.io/plonegovbr/portalbrasil-intranet-frontend:latest
+    image: ghcr.io/plonegovbr/portalbrasil-intranet-frontend:1.0.0a2
     platform: linux/amd64
     environment:
       RAZZLE_INTERNAL_API_PATH: http://backend:8080/Plone
@@ -51,7 +52,7 @@ services:
       - traefik.http.routers.rt-frontend.middlewares=gzip
 
   backend:
-    image: ghcr.io/plonegovbr/portalbrasil-intranet-backend:latest
+    image: ghcr.io/plonegovbr/portalbrasil-intranet-backend:1.0.0a2
     platform: linux/amd64
     environment:
       RELSTORAGE_DSN: "dbname='${DB_NAME:-plone}' user='${DB_NAME:-plone}' host='${DB_HOST:-db}' password='${DB_PASSWORD:-HxfQYJgHCtjM}' port='${DB_PORT:-5432}'"
