@@ -8,6 +8,14 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0-alpha.2 (2024-07-24)
+
+### Feature
+
+- Habilita VLibras por padrão em todas as páginas da Intranet [@ericof] [#1](https://github.com/plonegovbr/portalbrasil-intranet/issue/1)
+- Suporte a exibição do mapa do site no rodapé [@ericof] [#2](https://github.com/plonegovbr/portalbrasil-intranet/issue/2)
+- Exibe data de aniversário de um colaborador [@ericof] [#3](https://github.com/plonegovbr/portalbrasil-intranet/issue/3)
+
 ## 1.0.0-alpha.1 (2024-07-10)
 
 ### Feature
