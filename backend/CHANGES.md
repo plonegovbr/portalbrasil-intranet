@@ -9,6 +9,13 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0a2 (2024-07-24)
+
+### Features
+
+- Serializar data de aniversário completa apenas para quem pode editar o conteúdo [@ericof] [#3](https://github.com/plonegovbr/portalbrasil-intranet/issues/3)
+
+
 ## 1.0.0a1 (2024-07-10)
 
-No significant changes.
+- Implementação inicial do PortalBrasil: Intranet [@ericof]

@@ -12,4 +12,4 @@
 
 ### Feature
 
-- Implementação inicial do PortalBrasil: Intranet [@ericof] [##initial](https://github.com/plonegovbr/portalbrasil-intranet/issue/#initial)
+- Implementação inicial do PortalBrasil: Intranet [@ericof]
