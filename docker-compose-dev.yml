@@ -95,10 +95,10 @@ services:
       - traefik.http.routers.rt-backend-classic.service=svc-backend
       - traefik.http.routers.rt-backend-classic.middlewares=gzip,mw-backend-auth,mw-backend-vhm-classic
       ## admin
-      - traefik.http.routers.rt-backend-classic.rule=Host(`admin.portalbrasil-intranet.localhost`)
-      - traefik.http.routers.rt-backend-classic.entrypoints=http
-      - traefik.http.routers.rt-backend-classic.service=svc-backend
-      - traefik.http.routers.rt-backend-classic.middlewares=gzip,mw-backend-auth
+      - traefik.http.routers.rt-backend-admin.rule=Host(`admin.portalbrasil-intranet.localhost`)
+      - traefik.http.routers.rt-backend-admin.entrypoints=http
+      - traefik.http.routers.rt-backend-admin.service=svc-backend
+      - traefik.http.routers.rt-backend-admin.middlewares=gzip,mw-backend-auth
 
   db:
     image: postgres:14
