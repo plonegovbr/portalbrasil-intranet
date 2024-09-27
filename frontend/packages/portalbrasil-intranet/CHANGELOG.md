@@ -10,7 +10,7 @@
 
 ## 1.0.0-alpha.2 (2024-07-24)
 
-### Feature
+### Funcionalidade
 
 - Habilita VLibras por padrão em todas as páginas da Intranet [@ericof] [#1](https://github.com/plonegovbr/portalbrasil-intranet/issue/1)
 - Suporte a exibição do mapa do site no rodapé [@ericof] [#2](https://github.com/plonegovbr/portalbrasil-intranet/issue/2)
@@ -18,6 +18,6 @@
 
 ## 1.0.0-alpha.1 (2024-07-10)
 
-### Feature
+### Funcionalidade
 
 - Implementação inicial do PortalBrasil: Intranet [@ericof]

@@ -175,27 +175,27 @@ showcontent = true
 
 [[tool.towncrier.type]]
 directory = "feature"
-name = "New features:"
+name = "Funcionalidade"
 showcontent = true
 
 [[tool.towncrier.type]]
 directory = "bugfix"
-name = "Bug fixes:"
+name = "Correção de bug"
 showcontent = true
 
 [[tool.towncrier.type]]
 directory = "internal"
-name = "Internal:"
+name = "Interno"
 showcontent = true
 
 [[tool.towncrier.type]]
 directory = "documentation"
-name = "Documentation:"
+name = "Documentação"
 showcontent = true
 
 [[tool.towncrier.type]]
 directory = "tests"
-name = "Tests"
+name = "Teste"
 showcontent = true
 
 [tool.ruff]

@@ -14,20 +14,25 @@ showcontent = true
 
 [[tool.towncrier.type]]
 directory = "feature"
-name = "Feature"
+name = "Funcionalidade"
 showcontent = true
 
 [[tool.towncrier.type]]
 directory = "bugfix"
-name = "Bugfix"
+name = "Correção de Bug"
 showcontent = true
 
 [[tool.towncrier.type]]
 directory = "internal"
-name = "Internal"
+name = "Interno"
 showcontent = true
 
 [[tool.towncrier.type]]
 directory = "documentation"
-name = "Documentation"
+name = "Documentação"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "tests"
+name = "Teste"
 showcontent = true
