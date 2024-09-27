@@ -6,104 +6,104 @@
 
 Solução de Intranet construída com Plone
 
-## Quick Start 🏁
+## Início Rápido 🏁
 
-### Prerequisites ✅
+### Pré-requisitos ✅
 
-Ensure you have the following installed:
+Certifique-se de ter os seguintes itens instalados:
 
 - Python 3.11 🐍
 - Node 20 🟩
 - pnpm 🧶
 - Docker 🐳
 
-### Installation 🔧
+### Instalação 🔧
 
-1. Clone the repository:
+1. Clone o repositório:
 
 ```shell
 git clone git@github.com:plonegovbr/portalbrasil-intranet.git
 cd portalbrasil-intranet
 ```
 
-2. Install both Backend and Frontend:
+2. Instale tanto o Backend quanto o Frontend:
 
 ```shell
 make install
 ```
 
-### Fire Up the Servers 🔥
+### Inicialize os Servidores 🔥
 
-1. Create a new Plone site on your first run:
+1. Crie um novo site Plone na primeira execução:
 
 ```shell
 make backend-create-site
 ```
 
-2. Start the Backend at [http://localhost:8080/](http://localhost:8080/):
+2. Inicie o Backend em [http://localhost:8080/](http://localhost:8080/):
 
 ```shell
 make backend-start
 ```
 
-3. In a new terminal, start the Frontend at [http://localhost:3000/](http://localhost:3000/):
+3. Em um novo terminal, inicie o Frontend em [http://localhost:3000/](http://localhost:3000/):
 
 ```shell
 make frontend-start
 ```
 
-Voila! Your Plone site should be live and kicking! 🎉
+Voilá! Seu site Plone está no ar e funcionando! 🎉
 
-### Local Stack Deployment 📦
+### Implantação Local com Stack 📦
 
-Deploy a local `Docker Compose` environment that includes:
+Implemente um ambiente local com `Docker Compose`, incluindo:
 
-- Docker images for Backend and Frontend 🖼️
-- A stack with a Traefik router and a Postgres database 🗃️
-- Accessible at [http://portalbrasil-intranet.localhost](http://portalbrasil-intranet.localhost) 🌐
+- Imagens Docker para Backend e Frontend 🖼️
+- Um stack com um roteador Traefik e um banco de dados Postgres 🗃️
+- Acessível em [http://portalbrasil-intranet.localhost](http://portalbrasil-intranet.localhost) 🌐
 
-Execute the following:
+Execute os seguintes comandos:
 
 ```shell
 make stack-start
 make stack-create-site
 ```
 
-And... you're all set! Your Plone site is up and running locally! 🚀
+E... pronto! Seu site Plone está rodando localmente! 🚀
 
-## Project Structure 🏗️
+## Estrutura do Projeto 🏗️
 
-This monorepo consists of three distinct sections: `backend`, `frontend`, and `devops`.
+Este monorepo consiste em três seções distintas: `backend`, `frontend` e `devops`.
 
-- **backend**: Houses the API and Plone installation, utilizing pip instead of buildout, and includes a policy package named plonegovbr.intranet.
-- **frontend**: Contains the React (Volto) package.
-- **devops**: Encompasses Docker Stack, Ansible playbooks, and Cache settings.
+- **backend**: Abriga a API e a instalação do Plone, utilizando pip em vez de buildout, e inclui um pacote de políticas chamado plonegovbr.intranet.
+- **frontend**: Contém o pacote React (Volto).
+- **devops**: Abrange a Stack Docker, playbooks Ansible e configurações de Cache.
 
-### Why This Structure? 🤔
+### Por que essa Estrutura? 🤔
 
-- All necessary codebases to run the site are contained within the repo (excluding existing addons for Plone and React).
-- Specific GitHub Workflows are triggered based on changes in each codebase (refer to .github/workflows).
-- Simplifies the creation of Docker images for each codebase.
-- Demonstrates Plone installation/setup without buildout.
+- Todo o código necessário para rodar o site está contido no repositório (exceto addons existentes para Plone e React).
+- Workflows específicos do GitHub são acionados com base em alterações em cada base de código (consulte .github/workflows).
+- Facilita a criação de imagens Docker para cada base de código.
+- Demonstra a instalação/configuração do Plone sem o uso do buildout.
 
-## Code Quality Assurance 🧐
+## Garantia de Qualidade do Código 🧐
 
-To automatically format your code and ensure it adheres to quality standards, execute:
+Para formatar automaticamente seu código e garantir que ele atenda aos padrões de qualidade, execute:
 
 ```shell
 make check
 ```
 
-Linters can be run individually within the `backend` or `frontend` folders.
+Os linters podem ser executados individualmente dentro das pastas `backend` ou `frontend`.
 
-## Internationalization 🌐
+## Internacionalização 🌐
 
-Generate translation files for Plone and Volto with ease:
+Gere arquivos de tradução para Plone e Volto com facilidade:
 
 ```shell
 make i18n
 ```
 
-## Credits and Acknowledgements 🙏
+## Créditos e Agradecimentos 🙏
 
-Crafted with care by **Generated using [Cookieplone (0.7.1)](https://github.com/plone/cookieplone) and [cookiecutter-plone (fee7a07)](https://github.com/plone/cookiecutter-plone/commit/fee7a0706481b17193a86f06cc674017580e0441) on 2024-07-01 18:46:17.428634**. A special thanks to all contributors and supporters!
+Criado com carinho usando **[Cookieplone (0.7.1)](https://github.com/plone/cookieplone) e [cookiecutter-plone (fee7a07)](https://github.com/plone/cookiecutter-plone/commit/fee7a0706481b17193a86f06cc674017580e0441) em 01-07-2024 18:46:17.428634**. Um agradecimento especial a todos os colaboradores e apoiadores!
