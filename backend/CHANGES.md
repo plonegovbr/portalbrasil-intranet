@@ -9,6 +9,13 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0a3 (2024-09-27)
+
+
+### Funcionalidade
+
+- Atualizar Plone para versão 6.0.13 [@ericof] #5
+
 ## 1.0.0a2 (2024-07-24)
 
 ### Features

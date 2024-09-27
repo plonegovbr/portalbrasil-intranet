@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0-alpha.3 (2024-09-27)
+
+### Funcionalidade
+
+- Atualizar Volto para 18.0.0-alpha.43 [@ericof] [#6](https://github.com/plonegovbr/portalbrasil-intranet/issue/6)
+
 ## 1.0.0-alpha.2 (2024-07-24)
 
 ### Funcionalidade

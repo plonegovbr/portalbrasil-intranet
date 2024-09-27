@@ -1,5 +1,18 @@
 # Alterações
 
+## 1.0.0a3 (2024-09-27)
+
+### Backend
+
+#### Funcionalidade
+
+- Atualizar Plone para versão 6.0.13 [@ericof] #5
+
+### Frontend
+#### Funcionalidade
+
+- Atualizar Volto para 18.0.0-alpha.43 [@ericof] [#6](https://github.com/plonegovbr/portalbrasil-intranet/issue/6)
+
 ## 1.0.0a2 (2024-07-24)
 
 ### Backend
