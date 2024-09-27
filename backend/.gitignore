@@ -39,3 +39,5 @@ var/
 .lock
 requirements.txt
 requirements.lock
+.pytest_cache
+.ruff_cache
