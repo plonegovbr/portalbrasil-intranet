@@ -51,7 +51,7 @@ jobs:
           images: |
             ${{ env.IMAGE_NAME_PREFIX }}-backend
           labels: |
-            org.label-schema.docker.cmd=docker run -d -p 8080:8080 ${{ env.IMAGE_NAME_PREFIX }}-backend:latest
+            org.label-schema.docker.cmd=docker run -d -p 8080:8080 ${{ env.IMAGE_NAME_PREFIX }}-backend:${{ github.ref_name }}
           flavor:
             latest=false
           tags: |
@@ -92,7 +92,7 @@ jobs:
           images: |
             ${{ env.IMAGE_NAME_PREFIX }}-demo
           labels: |
-            org.label-schema.docker.cmd=docker run -d -p 8080:8080 ${{ env.IMAGE_NAME_PREFIX }}-demo:latest
+            org.label-schema.docker.cmd=docker run -d -p 8080:8080 ${{ env.IMAGE_NAME_PREFIX }}-demo:${{ github.ref_name }}
           flavor:
             latest=false
           tags: |
@@ -137,7 +137,7 @@ jobs:
           images: |
             ${{ env.IMAGE_NAME_PREFIX }}-frontend
           labels: |
-            org.label-schema.docker.cmd=docker run -d -p 3000:3000 ${{ env.IMAGE_NAME_PREFIX }}-frontend:latest
+            org.label-schema.docker.cmd=docker run -d -p 3000:3000 ${{ env.IMAGE_NAME_PREFIX }}-frontend:${{ github.ref_name }}
           flavor:
             latest=false
           tags: |
