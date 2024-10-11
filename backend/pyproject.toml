@@ -35,7 +35,7 @@ dependencies = [
   "collective.taxonomy",
   "collective.honeypot",
   "collective.bookmarks",
-  "plone.exportimport",
+  "plone.exportimport>=1.0.0a8",
 ]
 
 [project.urls]
