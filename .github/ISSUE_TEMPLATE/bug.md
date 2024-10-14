@@ -1,5 +1,5 @@
 ---
-name: '\U0001F41B PortalBrasil: Intranet - Problema'
+name: '🐛 PortalBrasil: Intranet - Problema'
 about: 'Descreve um problema encontrado na solução PortalBrasil: Intranet'
 labels: ['Bug', 'precisa: avaliação']
 assignees: '@plonegovbr/portalbrasil-desenvolvedores'

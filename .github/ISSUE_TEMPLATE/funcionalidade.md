@@ -1,5 +1,5 @@
 ---
-name: 'PortalBrasil: Intranet - Nova funcionalidade'
+name: '🚀 PortalBrasil: Intranet - Nova funcionalidade'
 about: 'Solicitação de nova funcionalidade para a solução PortalBrasil: Intranet'
 labels: ['Funcionalidade', 'precisa: avaliação']
 assignees: '@plonegovbr/portalbrasil-desenvolvedores'

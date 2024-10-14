@@ -1,5 +1,5 @@
 ---
-name: 'PortalBrasil: Intranet - Documentação'
+name: '📝 PortalBrasil: Intranet - Documentação'
 about: 'Melhorias na documentação do PortalBrasil: Intranet'
 labels: ['Documentação', 'precisa: avaliação']
 assignees: '@plonegovbr/portalbrasil-desenvolvedores'
