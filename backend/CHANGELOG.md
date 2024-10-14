@@ -9,6 +9,18 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0a4 (2024-10-14)
+
+
+### Interno
+
+- Atualiza plone.volto (4.4.3) e plone.exportimport(1.0.0a8) [@ericof] #10
+
+
+### Documentação
+
+- Altera a geração do label `org.label-schema.docker.cmd` para que ele utilize a tag gerada [@ericof] #9
+
 ## 1.0.0a3 (2024-09-27)
 
 
