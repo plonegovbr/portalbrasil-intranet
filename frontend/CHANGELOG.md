@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.0.0-alpha.4 (2024-10-14)
+
+### Documentação
+
+- Altera a geração do label `org.label-schema.docker.cmd` para que ele utilize a tag gerada [@ericof] [#9](https://github.com/plonegovbr/portalbrasil-intranet/issue/9)
+
 ## 1.0.0-alpha.3 (2024-09-27)
 
 ### Funcionalidade
