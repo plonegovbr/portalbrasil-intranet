@@ -1,6 +1,6 @@
 ---
-name: 'PortalBrasil: Intranet - Atualizar componente'
-about: 'Necessária'
+name: '⬆️ PortalBrasil: Intranet - Atualizar componente'
+about: 'Requisita a atualização de um ou mais componentes do PortalBrasil: Intranet'
 labels: ['Interno', 'precisa: avaliação']
 assignees: '@plonegovbr/portalbrasil-desenvolvedores'
 ---
