@@ -13,6 +13,11 @@ import AreasBlockEdit from './components/Blocks/Areas/Edit';
 import AreasBlockView from './components/Blocks/Areas/View';
 import areasSVG from '@plone/volto/icons/home.svg';
 
+/// Calendario
+import CalendarioBlockEdit from './components/Blocks/Calendario/Edit';
+import CalendarioBlockView from './components/Blocks/Calendario/View';
+import calendarioSVG from '@plone/volto/icons/calendar.svg';
+
 /// Colaboradores
 import ColaboradoresBlockEdit from './components/Blocks/Colaboradores/Edit';
 import ColaboradoresBlockView from './components/Blocks/Colaboradores/View';
@@ -100,6 +105,19 @@ const applyConfig = (config) => {
     view: AreasBlockView,
     edit: AreasBlockEdit,
     restricted: ({ properties }) => properties.portal_type !== 'Area',
+    mostUsed: false,
+    sidebarTab: 1,
+    blockHasOwnFocusManagement: false,
+  };
+
+  config.blocks.blocksConfig.calendarioBlock = {
+    id: 'calendarioBlock',
+    title: 'Calendário',
+    group: 'intranet',
+    icon: calendarioSVG,
+    view: CalendarioBlockView,
+    edit: CalendarioBlockEdit,
+    // restricted: ({ properties }) => properties.portal_type !== 'Area',
     mostUsed: false,
     sidebarTab: 1,
     blockHasOwnFocusManagement: false,
