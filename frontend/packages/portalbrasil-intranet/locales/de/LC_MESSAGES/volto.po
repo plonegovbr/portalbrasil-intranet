@@ -11,6 +11,11 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+#. Default: "Calendário"
+#: components/Blocks/Calendario/schema
+msgid "Calendário"
+msgstr ""
+
 #. Default: "Close menu"
 #: components/Navigation/Navigation
 msgid "Close menu"
@@ -43,6 +48,7 @@ msgstr ""
 
 #. Default: "Título"
 #: components/Blocks/Areas/schema
+#: components/Blocks/Calendario/schema
 #: components/Blocks/Colaboradores/schema
 #: components/Blocks/Gestor/schema
 msgid "Título"
