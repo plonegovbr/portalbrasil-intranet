@@ -58,7 +58,9 @@
   },
   "peerDependencies": {
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "@internationalized/date": "*",
+    "react-aria-components": "*"
   },
   "devDependencies": {
     "@plone/scripts": "^3.6.1",

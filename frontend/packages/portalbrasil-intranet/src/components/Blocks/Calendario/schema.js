@@ -9,7 +9,24 @@ const messages = defineMessages({
     id: 'Título',
     defaultMessage: 'Título',
   },
+  querystring: {
+    id: 'Query',
+    defaultMessage: 'Query',
+  },
 });
+
+// Consulta padrão dos eventos
+const defaultQueryString = {
+  query: [
+    {
+      i: 'portal_type',
+      o: 'plone.app.querystring.operation.selection.any',
+      v: ['Event'],
+    },
+  ],
+  sort_on: 'start',
+  sort_order: 'ascending',
+};
 
 export const calendarioSchema = (props) => {
   return {
@@ -18,7 +35,7 @@ export const calendarioSchema = (props) => {
       {
         id: 'default',
         title: 'Default',
-        fields: ['heading'],
+        fields: ['heading', 'querystring'],
       },
     ],
     properties: {
@@ -26,7 +43,12 @@ export const calendarioSchema = (props) => {
         title: props.intl.formatMessage(messages.heading),
         default: 'Eventos',
       },
+      querystring: {
+        title: props.intl.formatMessage(messages.querystring),
+        widget: 'querystring',
+        default: defaultQueryString,
+      },
     },
-    required: ['heading'],
+    required: ['heading', 'querystring'],
   };
 };
