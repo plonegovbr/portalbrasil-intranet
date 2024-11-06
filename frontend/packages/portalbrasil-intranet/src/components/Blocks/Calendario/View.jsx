@@ -12,7 +12,7 @@ const groupByDate = (items) => {
     const end = obj.end ? parseDate(obj.end.slice(0, 10)) : start;
 
     while (start < end) {
-      const key =  start.toString();
+      const key = start.toString();
 
       if (key) {
         if (map[key] === undefined) {
@@ -21,18 +21,16 @@ const groupByDate = (items) => {
         map[key].push(obj);
       }
 
-      start = start.add({days: 1})
+      start = start.add({ days: 1 });
     }
     return map;
-    
-
   }, {});
 };
 
 const CalendarioBlockView = withQuerystringResults((props) => {
   const { data, isEditMode, path, pathname, className, listingItems } = props;
   const items = listingItems ? groupByDate(listingItems) : {};
-  
+
   return (
     <CalendarioView
       data={data}
