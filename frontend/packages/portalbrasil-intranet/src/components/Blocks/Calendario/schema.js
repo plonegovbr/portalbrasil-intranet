@@ -13,6 +13,10 @@ const messages = defineMessages({
     id: 'Query',
     defaultMessage: 'Query',
   },
+  hasdescription: {
+    id: 'Descrição',
+    defaultMessage: 'Adicionar descrição dos eventos?',
+  },
 });
 
 // Consulta padrão dos eventos
@@ -35,7 +39,7 @@ export const calendarioSchema = (props) => {
       {
         id: 'default',
         title: 'Default',
-        fields: ['heading', 'querystring'],
+        fields: ['heading', 'querystring', 'hasdescription'],
       },
     ],
     properties: {
@@ -47,6 +51,10 @@ export const calendarioSchema = (props) => {
         title: props.intl.formatMessage(messages.querystring),
         widget: 'querystring',
         default: defaultQueryString,
+      },
+      hasdescription: {
+        title: props.intl.formatMessage(messages.hasdescription),
+        default: 'Adicionar descrição?',
       },
     },
     required: ['heading', 'querystring'],

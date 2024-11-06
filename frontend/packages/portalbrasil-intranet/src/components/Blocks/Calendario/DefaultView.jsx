@@ -11,6 +11,7 @@ const Evento = ({ item }) => {
     <Container className={'evento'}>
       <h3>{item.title}</h3>
       <When start={item.start} end={item.end} />
+      {/* TODO ADICIONAR DESCRIÇÃO OPCIONAL */}
     </Container>
   );
 };
