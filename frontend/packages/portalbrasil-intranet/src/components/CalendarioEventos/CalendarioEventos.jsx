@@ -3,12 +3,14 @@ import {
   CalendarCell,
   CalendarGrid,
   Heading,
+  I18nProvider,
 } from 'react-aria-components';
 
 const CalendarioEventos = (props) => {
   const { items } = props;
   const hasEvents = Object.keys(items);
   return (
+    <I18nProvider locale="pt-br">
     <div className={'calendarioEventos'}>
       <RACCalendar {...props}>
         <header>
@@ -28,6 +30,7 @@ const CalendarioEventos = (props) => {
         </CalendarGrid>
       </RACCalendar>
     </div>
+    </I18nProvider>
   );
 };
 
