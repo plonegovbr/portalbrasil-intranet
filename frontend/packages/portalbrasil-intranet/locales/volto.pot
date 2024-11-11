@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2024-10-23T23:05:42.097Z\n"
+"POT-Creation-Date: 2024-11-11T22:12:20.630Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -28,6 +28,11 @@ msgstr ""
 msgid "Colaboradores"
 msgstr ""
 
+#. Default: "Adicionar descrição dos eventos?"
+#: components/Blocks/Calendario/schema
+msgid "Descrição"
+msgstr ""
+
 #. Default: "Gestor"
 #: components/Blocks/Gestor/schema
 msgid "Gestor"
@@ -46,6 +51,11 @@ msgstr ""
 #. Default: "Powered by Portal Brasil: Intranet, Plone & Python"
 #: components/Footer/Footer
 msgid "Powered by Portal Brasil: Intranet, Plone & Python"
+msgstr ""
+
+#. Default: "Query"
+#: components/Blocks/Calendario/schema
+msgid "Query"
 msgstr ""
 
 #. Default: "Título"

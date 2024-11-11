@@ -26,6 +26,11 @@ msgstr ""
 msgid "Colaboradores"
 msgstr ""
 
+#. Default: "Adicionar descrição dos eventos?"
+#: components/Blocks/Calendario/schema
+msgid "Descrição"
+msgstr ""
+
 #. Default: "Gestor"
 #: components/Blocks/Gestor/schema
 msgid "Gestor"
@@ -44,6 +49,11 @@ msgstr ""
 #. Default: "Powered by Portal Brasil: Intranet, Plone & Python"
 #: components/Footer/Footer
 msgid "Powered by Portal Brasil: Intranet, Plone & Python"
+msgstr ""
+
+#. Default: "Query"
+#: components/Blocks/Calendario/schema
+msgid "Query"
 msgstr ""
 
 #. Default: "Título"
