@@ -11,6 +11,11 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+#. Default: "Adicionar descrição dos eventos?"
+#: components/Blocks/Calendario/schema
+msgid "Adicionar descrição dos eventos?"
+msgstr ""
+
 #. Default: "Calendário"
 #: components/Blocks/Calendario/schema
 msgid "Calendário"
@@ -24,11 +29,6 @@ msgstr ""
 #. Default: "Colaboradores"
 #: components/Blocks/Colaboradores/schema
 msgid "Colaboradores"
-msgstr ""
-
-#. Default: "Adicionar descrição dos eventos?"
-#: components/Blocks/Calendario/schema
-msgid "Descrição"
 msgstr ""
 
 #. Default: "Gestor"

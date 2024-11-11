@@ -14,7 +14,7 @@ const messages = defineMessages({
     defaultMessage: 'Query',
   },
   hasdescription: {
-    id: 'Descrição',
+    id: 'Adicionar descrição dos eventos?',
     defaultMessage: 'Adicionar descrição dos eventos?',
   },
 });
@@ -54,7 +54,8 @@ export const calendarioSchema = (props) => {
       },
       hasdescription: {
         title: props.intl.formatMessage(messages.hasdescription),
-        default: 'Adicionar descrição?',
+        type: 'boolean',
+        default: false,
       },
     },
     required: ['heading', 'querystring'],
