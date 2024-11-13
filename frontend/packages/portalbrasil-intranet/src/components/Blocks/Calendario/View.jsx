@@ -5,31 +5,33 @@ import { parseDate } from '@internationalized/date';
 import withQuerystringResults from './withQuerystringResults';
 
 const groupByDate = (items) => {
-  return items
-    .reduce((map, obj) => {
-      if (!obj.start) {
-        return null;
-      }
-
-      let start = obj.start ? parseDate(obj.start.slice(0, 10)) : null;
-      const end = obj.end ? parseDate(obj.end.slice(0, 10)) : start;
-
-      while (start < end) {
-        const key = start.toString();
-
-        if (key) {
-          if (map[key] === undefined) {
-            map[key] = [];
-          }
-          map[key].push(obj);
+  return Object.values(
+    items
+      .reduce((map, obj) => {
+        if (!obj.start) {
+          return null;
         }
 
-        start = start.add({ days: 1 });
-      }
-      return map;
-    }, {})
-    .filter((item) => item !== null);
+        let start = obj.start ? parseDate(obj.start.slice(0, 10)) : null;
+        const end = obj.end ? parseDate(obj.end.slice(0, 10)) : start;
+
+        while (start < end) {
+          const key = start.toString();
+
+          if (key) {
+            if (map[key] === undefined) {
+              map[key] = [];
+            }
+            map[key].push(obj);
+          }
+
+          start = start.add({ days: 1 });
+        }
+        return map;
+      }, {})
+  ).filter((item) => item !== null);
 };
+
 
 const CalendarioBlockView = withQuerystringResults((props) => {
   const { data, isEditMode, path, pathname, className, listingItems } = props;
