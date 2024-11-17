@@ -29,8 +29,6 @@ const groupByDate = (items) => {
   }, {});
 };
 
-
-
 const CalendarioBlockView = withQuerystringResults((props) => {
   const { data, isEditMode, path, pathname, className, listingItems } = props;
   const items = listingItems ? groupByDate(listingItems) : {};

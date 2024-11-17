@@ -37,7 +37,9 @@ const CalendarioView = (props) => {
           <CalendarioEventos items={items} onChange={setDate} />
         </div>
         <div className={'eventos column'}>
-          {dateItems && <EventosLista items={dateItems} hasDescription={hasDescription} />}
+          {dateItems && (
+            <EventosLista items={dateItems} hasDescription={hasDescription} />
+          )}
         </div>
       </Container>
     </div>
