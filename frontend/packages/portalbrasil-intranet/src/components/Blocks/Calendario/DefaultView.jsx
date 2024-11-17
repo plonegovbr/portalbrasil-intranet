@@ -6,12 +6,12 @@ import CalendarioEventos from '../../CalendarioEventos/CalendarioEventos';
 import { When } from '@plone/volto/components/theme/View/EventDatesInfo';
 import '@plone/components/src/styles/basic/Calendar.css';
 
-const Evento = ({ item }) => {
+const Evento = ({ item }, hasDescription) => {
   return (
     <Container className={'evento'}>
       <h3>{item.title}</h3>
       <When start={item.start} end={item.end} />
-      {/* TODO ADICIONAR DESCRIÇÃO OPCIONAL */}
+      {hasDescription && <p>{item.description}</p>}
     </Container>
   );
 };
@@ -25,7 +25,7 @@ const EventosLista = ({ items }) => {
 };
 
 const CalendarioView = (props) => {
-  const { className, data, items } = props;
+  const { className, data, items, hasDescription } = props;
   const { heading } = data;
   const [date, setDate] = useState();
   const dateItems = date && items && items[date.toString()];
@@ -37,7 +37,7 @@ const CalendarioView = (props) => {
           <CalendarioEventos items={items} onChange={setDate} />
         </div>
         <div className={'eventos column'}>
-          {dateItems && <EventosLista items={dateItems} />}
+          {dateItems && <EventosLista items={dateItems} hasDescription={hasDescription} />}
         </div>
       </Container>
     </div>
