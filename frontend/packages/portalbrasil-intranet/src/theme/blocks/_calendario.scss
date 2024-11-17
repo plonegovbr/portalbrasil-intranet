@@ -6,6 +6,7 @@
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 2rem;
     .column {
       display: flex;
       max-height: 310px;
@@ -23,6 +24,22 @@
       overflow-y: auto;
       .eventos-lista {
         display: block;
+
+        .evento {
+          padding-bottom: 2rem;
+
+          h3 {
+            margin-bottom: 0.25rem;
+          }
+          
+          p {
+            margin-bottom: 0.25rem;
+          }
+
+          .event-when {
+            font-style: italic;
+          }
+        }
       }
     }
   }
