@@ -91,7 +91,7 @@ Este monorepo consiste em três seções distintas: `backend`, `frontend` e `dev
 Para formatar automaticamente seu código e garantir que ele atenda aos padrões de qualidade, execute:
 
 ```shell
-make check
+make format
 ```
 
 Os linters podem ser executados individualmente dentro das pastas `backend` ou `frontend`.
