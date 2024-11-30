@@ -71,6 +71,16 @@ make stack-create-site
 
 E... pronto! Seu site Plone está rodando localmente! 🚀
 
+### Troubleshoot 🔧
+
+Caso tenha problemas para instalar o pnpm, utilize:
+
+```npm install -g pnpm```
+
+Em caso de `RequiredDependencyException`, instalar o pacote `libjpeg-dev`
+
+```sudo apt install libjpeg-dev```
+
 ## Estrutura do Projeto 🏗️
 
 Este monorepo consiste em três seções distintas: `backend`, `frontend` e `devops`.
@@ -91,7 +101,7 @@ Este monorepo consiste em três seções distintas: `backend`, `frontend` e `dev
 Para formatar automaticamente seu código e garantir que ele atenda aos padrões de qualidade, execute:
 
 ```shell
-make check
+make format
 ```
 
 Os linters podem ser executados individualmente dentro das pastas `backend` ou `frontend`.
