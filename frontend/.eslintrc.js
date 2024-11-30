@@ -1,6 +1,6 @@
 const fs = require('fs');
 const projectRootPath = __dirname;
-const AddonConfigurationRegistry = require('@plone/registry/src/addon-registry');
+const { AddonRegistry } = require('@plone/registry/addon-registry');
 
 let coreLocation;
 if (fs.existsSync(`${projectRootPath}/core`))
@@ -8,7 +8,7 @@ if (fs.existsSync(`${projectRootPath}/core`))
 else if (fs.existsSync(`${projectRootPath}/../../core`))
   coreLocation = `${projectRootPath}/../../core`;
 
-const registry = new AddonConfigurationRegistry(
+const { registry } = AddonRegistry.init(
   `${coreLocation}/packages/volto`,
 );
 
@@ -30,9 +30,8 @@ module.exports = {
           ['@plone/volto', `${coreLocation}/packages/volto/src`],
           [
             '@plone/volto-slate',
-            `${coreLocation}/core/packages/volto-slate/src`,
+            `${coreLocation}/volto-slate/src`,
           ],
-          ['@plone/registry', `${coreLocation}/packages/registry/src`],
           [
             'portalbrasil-intranet',
             './packages/portalbrasil-intranet/src',
