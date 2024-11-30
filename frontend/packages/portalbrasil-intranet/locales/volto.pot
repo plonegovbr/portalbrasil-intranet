@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2024-07-10T21:28:22.781Z\n"
+"POT-Creation-Date: 2024-11-11T22:26:07.242Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -12,6 +12,16 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: volto\n"
+
+#. Default: "Adicionar descrição dos eventos?"
+#: components/Blocks/Calendario/schema
+msgid "Adicionar descrição dos eventos?"
+msgstr ""
+
+#. Default: "Calendário"
+#: components/Blocks/Calendario/schema
+msgid "Calendário"
+msgstr ""
 
 #. Default: "Close menu"
 #: components/Navigation/Navigation
@@ -43,8 +53,14 @@ msgstr ""
 msgid "Powered by Portal Brasil: Intranet, Plone & Python"
 msgstr ""
 
+#. Default: "Query"
+#: components/Blocks/Calendario/schema
+msgid "Query"
+msgstr ""
+
 #. Default: "Título"
 #: components/Blocks/Areas/schema
+#: components/Blocks/Calendario/schema
 #: components/Blocks/Colaboradores/schema
 #: components/Blocks/Gestor/schema
 msgid "Título"

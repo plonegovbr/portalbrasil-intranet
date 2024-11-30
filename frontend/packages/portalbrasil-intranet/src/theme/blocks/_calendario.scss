@@ -1,0 +1,46 @@
+// Estilos do bloco de calendário
+.block.calendarioBlock {
+  padding: $spacing-small;
+  .wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    .column {
+      display: flex;
+      max-height: 310px;
+      flex: 1;
+      flex-direction: column;
+    }
+    .calendario {
+      h2:last-child {
+        margin: unset;
+      }
+    }
+    .eventos {
+      display: flex;
+      flex: 3;
+      overflow-y: auto;
+      .eventos-lista {
+        display: block;
+
+        .evento {
+          padding-bottom: 2rem;
+
+          h3 {
+            margin-bottom: 0.25rem;
+          }
+
+          p {
+            margin-bottom: 0.25rem;
+          }
+
+          .event-when {
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.calendarioEventos {
+  .react-aria-Calendar {
+    .react-aria-CalendarGridBody {
+      .react-aria-CalendarCell {
+        &.hasEvents {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

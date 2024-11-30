@@ -11,6 +11,16 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+#. Default: "Adicionar descrição dos eventos?"
+#: components/Blocks/Calendario/schema
+msgid "Adicionar descrição dos eventos?"
+msgstr ""
+
+#. Default: "Calendário"
+#: components/Blocks/Calendario/schema
+msgid "Calendário"
+msgstr ""
+
 #. Default: "Close menu"
 #: components/Navigation/Navigation
 msgid "Close menu"
@@ -41,8 +51,14 @@ msgstr ""
 msgid "Powered by Portal Brasil: Intranet, Plone & Python"
 msgstr ""
 
+#. Default: "Query"
+#: components/Blocks/Calendario/schema
+msgid "Query"
+msgstr ""
+
 #. Default: "Título"
 #: components/Blocks/Areas/schema
+#: components/Blocks/Calendario/schema
 #: components/Blocks/Colaboradores/schema
 #: components/Blocks/Gestor/schema
 msgid "Título"
