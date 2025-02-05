@@ -7,7 +7,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { Container } from '@plone/components';
-import { Icon } from '@plone/volto/components';
+import Icon from '@plone/volto/components/theme/Icon/Icon';
 import tagSVG from '@plone/volto/icons/tag.svg';
 
 /**

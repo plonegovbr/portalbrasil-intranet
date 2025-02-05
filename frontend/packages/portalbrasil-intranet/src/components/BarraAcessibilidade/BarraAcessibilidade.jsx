@@ -1,8 +1,9 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Container } from '@plone/components';
-import { Icon, UniversalLink } from '@plone/volto/components';
-import { BodyClass } from '@plone/volto/helpers';
+import Icon from '@plone/volto/components/theme/Icon/Icon';
+import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
+import BodyClass from '@plone/volto/helpers/BodyClass/BodyClass';
 import config from '@plone/volto/registry';
 import { setAcessibilidade } from '../../actions/Acessibilidade/Acessibilidade';
 import acessibilidadeIcon from '../../icons/acessibilidade.svg';

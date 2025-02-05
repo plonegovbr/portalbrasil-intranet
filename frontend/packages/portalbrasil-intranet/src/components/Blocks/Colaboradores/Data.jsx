@@ -1,5 +1,5 @@
 import React from 'react';
-import { BlockDataForm } from '@plone/volto/components';
+import { BlockDataForm } from '@plone/volto/components/manage/Form';
 import { colaboradoresSchema } from './schema';
 import { useIntl } from 'react-intl';
 

@@ -1,6 +1,6 @@
 // SemanticUI-free pre-@plone/components
 import { defineMessages, useIntl } from 'react-intl';
-import { UniversalLink } from '@plone/volto/components';
+import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
 import LogoImage from './logo.png';
 
 const messages = defineMessages({

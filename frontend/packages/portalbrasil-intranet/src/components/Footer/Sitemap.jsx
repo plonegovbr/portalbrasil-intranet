@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector, shallowEqual } from 'react-redux';
 import { NavLink } from 'react-router-dom';
-import { getNavigation } from '@plone/volto/actions';
+import { getNavigation } from '@plone/volto/actions/navigation/navigation';
 import { GridList, GridListItem } from '@plone/components';
-import { getBaseUrl, hasApiExpander } from '@plone/volto/helpers';
+import { getBaseUrl } from '@plone/volto/helpers/Url/Url';
+import { hasApiExpander } from '@plone/volto/helpers/Utils/Utils';
 import config from '@plone/volto/registry';
 
 const Sitemap = ({ pathname }) => {

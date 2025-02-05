@@ -20,6 +20,24 @@ module.exports = {
   extends: `${coreLocation}/packages/volto/.eslintrc`,
   rules: {
     'import/no-unresolved': 1,
+    'no-restricted-imports': [
+      'error',
+      {
+        name: '@plone/volto/components',
+        message:
+          'Importing from barrel files is not allowed. Please use direct imports of the modules instead.',
+      },
+      {
+        name: '@plone/volto/helpers',
+        message:
+          'Importing from barrel files is not allowed. Please use direct imports of the modules instead.',
+      },
+      {
+        name: '@plone/volto/actions',
+        message:
+          'Importing from barrel files is not allowed. Please use direct imports of the modules instead.',
+      },
+    ],
   },
   settings: {
     'import/resolver': {

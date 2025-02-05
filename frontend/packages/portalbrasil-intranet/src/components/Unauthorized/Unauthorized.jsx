@@ -6,10 +6,11 @@ import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import { useHistory, useLocation } from 'react-router-dom';
 import { Container } from '@plone/components';
-import { UniversalLink } from '@plone/volto/components';
+import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
 import Login from '@plone/volto/components/theme/Login/Login';
 import { withServerErrorCode } from '@plone/volto/helpers/Utils/Utils';
-import { getBaseUrl, BodyClass } from '@plone/volto/helpers';
+import { getBaseUrl } from '@plone/volto/helpers/Url/Url';
+import BodyClass from '@plone/volto/helpers/BodyClass/BodyClass';
 
 /**
  * unauthorized function.
