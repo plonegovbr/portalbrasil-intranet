@@ -38,7 +38,7 @@ help: ## Show this help
 install: ## Installs the add-on in a development environment
 	pnpm dlx mrs-developer missdev --no-config --fetch-https
 	pnpm i
-	pnpm build:deps
+	make build-deps
 
 .PHONY: start
 start: ## Starts Volto, allowing reloading of the add-on during development
@@ -63,7 +63,7 @@ i18n: ## Sync i18n
 
 .PHONY: ci-i18n
 ci-i18n: ## Check if i18n is not synced
-	pnpm --filter $(ADDON_NAME) i18n && git diff  --exit-code -- packages '*.pot' '*.po'
+	pnpm --filter $(ADDON_NAME) i18n && git diff -G'^[^\"POT]' --exit-code
 
 .PHONY: format
 format: ## Format codebase
@@ -83,13 +83,13 @@ release: ## Release the add-on on npmjs.org
 
 .PHONY: release-dry-run
 release-dry-run: ## Dry-run the release of the add-on on npmjs.org
-	pnpm dry-release
+	pnpm release
 
 .PHONY: test
 test: ## Run unit tests
 	pnpm test
 
-.PHONY: test-ci
+.PHONY: ci-test
 ci-test: ## Run unit tests in CI
 	# Unit Tests need the i18n to be built
 	VOLTOCONFIG=$(pwd)/volto.config.js pnpm --filter @plone/volto i18n
@@ -110,7 +110,7 @@ storybook-start: ## Start Storybook server on port 6006
 storybook-build: ## Build Storybook
 	@echo "$(GREEN)==> Build Storybook$(RESET)"
 	mkdir -p $(CURRENT_DIR)/.storybook-build
-	pnpm run build-storybook -o $(CURRENT_DIR)/.storybook-build
+	pnpm run storybook-build -o $(CURRENT_DIR)/.storybook-build
 
 ## Acceptance
 .PHONY: acceptance-frontend-dev-start
