@@ -15,7 +15,8 @@ RUN <<EOT
     bin/pip install mxdev uv hatch
     cd /app/src
     ../bin/hatch build
-    make constraints-mxdev.txt
+    echo "-c https://dist.plone.org/release/$(PLONE_VERSION)/constraints.txt" > requirements.txt
+    ../bin/mxdev -c mx.ini
     ../bin/uv pip install dist/*.whl -c constraints-mxdev.txt
     ../bin/python /compile_mo.py
     cd /app
