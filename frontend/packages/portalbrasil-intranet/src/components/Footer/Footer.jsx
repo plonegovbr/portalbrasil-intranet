@@ -3,9 +3,10 @@ import React from 'react';
 
 import { FormattedMessage, injectIntl } from 'react-intl';
 import { useSelector, shallowEqual } from 'react-redux';
-import { UniversalLink } from '@plone/volto/components';
+import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
 import { Container } from '@plone/components';
-import { flattenToAppURL, addAppURL } from '@plone/volto/helpers';
+import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
+import { addAppURL } from '@plone/volto/helpers/Url/Url';
 import Sitemap from './Sitemap';
 import ToolLogo from '../ToolLogo/ToolLogo';
 import config from '@plone/volto/registry';

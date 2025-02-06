@@ -7,7 +7,7 @@ import {
   GET_VOCABULARY,
   GET_VOCABULARY_TOKEN_TITLE,
 } from '@plone/volto/constants/ActionTypes';
-import { flattenToAppURL } from '@plone/volto/helpers';
+import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
 import { getVocabName } from '@plone/volto/helpers/Vocabularies/Vocabularies';
 import config from '@plone/volto/registry';
 import qs from 'query-string';

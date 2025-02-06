@@ -4,9 +4,15 @@
  */
 import React from 'react';
 import { Container } from '@plone/components';
-import { UniversalLink } from '@plone/volto/components';
-import { TabPane, Tab } from 'semantic-ui-react';
-import { TableRow, TableCell, TableBody, Table } from 'semantic-ui-react';
+import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
+import {
+  TabPane,
+  Tab,
+  TableRow,
+  TableCell,
+  TableBody,
+  Table,
+} from 'semantic-ui-react';
 
 const DadosPessoais = ({ area_info, aniversario, id }) => {
   return (

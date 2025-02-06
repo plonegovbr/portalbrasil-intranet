@@ -4,7 +4,8 @@
  */
 import React from 'react';
 import { Container } from '@plone/components';
-import { hasBlocksData, getBaseUrl } from '@plone/volto/helpers';
+import { getBaseUrl } from '@plone/volto/helpers/Url/Url';
+import { hasBlocksData } from '@plone/volto/helpers/Blocks/Blocks';
 import RenderBlocks from '@plone/volto/components/theme/View/RenderBlocks';
 
 /**

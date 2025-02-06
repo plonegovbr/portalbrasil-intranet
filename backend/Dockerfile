@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-ARG PLONE_VERSION=6.0.11
+ARG PLONE_VERSION=6.0.14
 FROM plone/server-builder:${PLONE_VERSION} AS builder
 
 WORKDIR /app
@@ -13,7 +13,9 @@ COPY . src
 RUN <<EOT
     set -e
     bin/pip install mxdev uv hatch
+    cp /app/constraints.txt /app/src/constraints.txt
     cd /app/src
+    echo "-c constraints.txt" > requirements.txt
     ../bin/hatch build
     ../bin/mxdev -c mx.ini
     ../bin/uv pip install dist/*.whl -c constraints-mxdev.txt

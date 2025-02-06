@@ -4,7 +4,8 @@
  */
 import React from 'react';
 import { Container } from '@plone/components';
-import { UniversalLink, Icon } from '@plone/volto/components';
+import Icon from '@plone/volto/components/theme/Icon/Icon';
+import UniversalLink from '@plone/volto/components/manage/UniversalLink/UniversalLink';
 import lockSVG from '@plone/volto/icons/lock.svg';
 
 /**
