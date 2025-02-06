@@ -2,10 +2,9 @@
 
 Solução de Intranet construída com Plone
 
-[![npm](https://img.shields.io/npm/v/portalbrasil-intranet)](https://www.npmjs.com/package/portalbrasil-intranet)
+[![npm](https://img.shields.io/npm/v/@plonegovbr/portalbrasil-intranet)](`https://www.npmjs.com/package/@plonegovbr/portalbrasil-intranet`)
 [![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://plonegovbr.github.io/portalbrasil-intranet/)
-[![Code analysis checks](https://github.com/plonegovbr/portalbrasil-intranet/actions/workflows/code.yml/badge.svg)](https://github.com/plonegovbr/portalbrasil-intranet/actions/workflows/code.yml)
-[![Unit tests](https://github.com/plonegovbr/portalbrasil-intranet/actions/workflows/unit.yml/badge.svg)](https://github.com/plonegovbr/portalbrasil-intranet/actions/workflows/unit.yml)
+[![Unit tests](https://github.com/plonegovbr/portalbrasil-intranet/actions/workflows/frontend.yml/badge.svg)](https://github.com/plonegovbr/portalbrasil-intranet/actions/workflows/frontend.yml)
 
 ## Features
 
