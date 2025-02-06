@@ -15,7 +15,7 @@ RUN <<EOT
     bin/pip install mxdev uv hatch
     cd /app/src
     ../bin/hatch build
-    ../bin/mxdev -c mx.ini
+    make constraints-mxdev.txt
     ../bin/uv pip install dist/*.whl -c constraints-mxdev.txt
     ../bin/python /compile_mo.py
     cd /app
